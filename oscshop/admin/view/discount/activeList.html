@@ -1,0 +1,721 @@
+{extend name="public:base" /}
+{block name="head"}{/block}
+{block name="css"}
+	<style>
+		.tab-content {
+     		border:none!important;
+     	}
+	</style>
+{/block}
+{block name="content"}
+	<script src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+	<link rel="stylesheet" href="__ADMIN__/css/discount-sale.css">
+	<link rel="stylesheet" href="__ADMIN__/css/hot-com.css">
+	<script src="__ADMIN__/js/discount-sz.js"></script>
+	<script src="__ADMIN__/js/discount-common.js"></script>
+	<script src="__ADMIN__/js/discount-util.js"></script>
+	<script src="__ADMIN__/js/discount-sale.js"></script>
+	<script src="__ADMIN__/js/discount.js"></script>
+	<div class="page-header">  
+		<h1>
+			{$breadcrumb1}
+			<small>
+				<i class="ace-icon fa fa-angle-double-right"></i>
+				{$breadcrumb2}
+			</small>
+			<small>
+				<i class="ace-icon fa fa-angle-double-right"></i>
+				{$crumbs}
+			</small>			
+		</h1>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="panel-body">
+				<ul class="nav nav-tabs">
+			          	<li class="active"><a href="#tab-data" data-toggle="tab">买/满就送</a></li>
+			          	
+			            <li><a href="#tab-general" data-toggle="tab">满件优惠</a></li>
+			            <li><a href="#tab-discount" data-toggle="tab">限时特价/折扣</a></li>   
+	          		</ul>
+			</div>
+			<div class="tab-content">
+				<div class="tab-pane active" id="tab-data">
+					<div class="makeActiveForm clearB left">
+			            <div class="back left">
+			                <a href="{:url('Discount/add')}" class="J_mm_link" target="_self">
+			                &lt;&lt;返回</a>
+			                <span>满件就送设置</span>
+			            </div>
+
+			            <div class="info">
+			                <form id="J_mmy_level">
+			                    <h3>活动信息</h3>
+			                    <div class="item name-new">
+			                        <i>*</i>
+			                        <span>活动名称：</span>
+			                        <input value="" placeholder="输入活动名称" name="activName" class="J_input" type="text">
+			                        <input value="" class="J_input" name="activId" type="hidden">
+			                    </div>
+			                    <div class="item time-new">
+			                        <i>*</i>
+			                        <span>活动时间：</span>
+			                        <div class="timeChoice">
+			                            <input class="Wdate J_input" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:00:00'})" name="activStartTime" value="" type="text">
+
+			                            <span>-</span>
+			                            <input class="Wdate J_input" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:00:00'})" name="activEndTime" value="" type="text">
+			                        </div>
+			                    </div>
+				<div class="item">
+						<div class="title clearB left">
+							<i>*</i>
+							<span>活动商品：</span>
+							<a class="goodsTab" href="javascript:void(0)">选择指定商品（已选择<b>0</b>个宝贝）</a>
+						</div>
+					<div style="display: none;" class="item goodsList">
+						<div class="titleGoods">
+							<ul>
+								<li class="active">
+									<a href="javascript:void(0)">选择商品
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)">
+										已选商品
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conGoods">
+							<dl>
+								<dd class="cur">
+								    <div class="searchActive-3 left clearB">
+								        <div class="name left">
+								            <select name="" id="J_mmy_type">
+								                <option value="">全部宝贝</option>
+								                </select>
+								                    <span>活动名称：</span>
+								                    <input type="text" id="J_mmy_name" placeholder="输入宝贝名称">
+								        </div>
+								        <div class="searchBtn-3">
+								            <a id="J_mmy_searchgds">搜索</a>
+								        </div>
+								    </div>
+								    <div class="goodsChoice">
+								        <table class="tableThime tbt2" id="J_mmy_allgds">
+								            <thead>
+								                <tr>
+								                <th width="58"></th>
+								                <th width="464">宝贝名称</th>
+								                <th width="280"></th>
+								                <th width="150">操作</th>
+								            	</tr>
+								            </thead>
+								            <tbody>
+								                                
+								            </tbody>
+								        </table>
+								        <div class="choiceAll-page left">
+								            <div class="choiceAll left">
+									            <p class="huist">
+									             <input id="checkAllBtn" type="checkbox" style="float: left; margin-top: 2px; border: none;">
+									             <span>全选</span>
+									             <a href="javascript:void(0)" id="J_mkmy_selectgds">批量选择</a>
+									            </p>
+									            <p>
+									             <a href="javascript:void(0)" class="done">保存设置</a>
+									            </p>
+								            </div>
+								         <div class="pagerBar pages right" id="Pagination"></div>
+								        </div>
+								    </div>
+								</dd>
+								<dd class="hadChoice">
+								   	<div class="title">
+								       	<span>宝贝名称</span>
+								       	<em>操作</em>
+								       	<span>宝贝名称</span>
+								       	<em>操作</em>
+								   	</div>
+								    <div class="con">
+								        <div id="J_mmy_selected">
+								        </div>
+								        <div class="checkBtn left clearB">
+								         	<a class="done" href="javascript:void(0)">完成选择</a>
+								        </div>
+								    </div>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			    <div class="item styleChoice hui">
+			      	<i>*</i>
+			      	<span>优惠方案：</span>
+			      	<div class="huiStyle">
+			          	<input class="money" name="activScheme" value="1" checked="checked" type="radio">
+			          	<label>按金额优惠</label>
+			          	<input class="num" name="activScheme" value="2" type="radio">
+			          	<label>按件数优惠</label>
+			      	</div>
+			    </div>
+
+			    <div class="item styleChoice choiceFS">
+			       	<i>*</i>
+			       	<span>优惠方式：</span>
+			       	<div class="huilever">
+			           	<input class="simple" name="oneOrmultFlag" value="1" checked="checked" type="radio">
+			           	<label>普通优惠</label>
+			           	<input class="more" name="oneOrmultFlag" value="2" type="radio">
+			           	<label>多级优惠</label>
+			       	</div>
+			    </div>
+			    <div class="item" id="J_mmy_lever_wrap">
+			        <div class="con lever byMoney addLever">
+			         	<p>
+			            	<i>*</i>
+			            	<span>优惠条件：买家消费满</span><input class="tiao manMoney J_money_check" type="text">
+			            	<span>元</span>
+			            	<input class="J_mmy_notop" type="checkbox">
+			            	<span>上不封顶</span>
+			            	<em class="topTip">
+			            		<span>如：满100减10设置了上不封顶，则满500应减50，礼品只送一次</span>
+			            	</em>
+			         	</p>
+			            <table>
+			            	<tbody>
+			            		<tr>
+			            			<td><i>*</i><span>优惠内容：</span></td>
+			            			
+			            			<td>
+			            				<div class="clearB left cutMoney J_discount">
+			            					<div class="tip1">
+			            						<input class="J_check" style="float: left; margin-top: 0px; border: none;" type="checkbox">
+			            						<span>减现金</span>
+			            					</div>
+			            					<div class="tip2" style="display: none;">
+			            						<em>减</em>
+			            						<input class="J_data jianMoney J_money_check" type="text">
+			            						<span>元</span>
+			            					</div>
+			            				</div>
+
+			            				<div class="clearB left giveGift">
+			            					<div class="tip1">
+			            						<input type="checkbox">
+			            						<span>送礼品</span>
+			            						<em>送</em>
+			            					</div>
+			            					<div class="tip2">
+			            						<input class="J_mmyy_name" type="text">
+			            						<input class="J_mmy_giftid" type="hidden">
+			            						<input class="J_mmy_skuid" type="hidden">
+			            					<a class="choiceGft" href="javascript:void(0)">选择礼品</a>
+			            					<em class="topTip">
+			            						<span>
+			            							礼品名称限制为10个字符以内
+			            						</span>
+			            					</em>
+			            					</div>
+			            					<p style="margin-bottom: 0px; color: #CCCCCC; display:none;">
+			            					（礼品库存为0时则停止赠送，请留意礼品库存，在补充库存后，请重新选择一次礼品，则送礼品活动再次开始。）
+			            					</p>
+			            				<div>
+			            					<div class="mmy-gift" style="display:none;">
+			            						<img src="" width="90" height="90">
+			            						<span class="mmy-delete">	
+			            							删除
+			            						</span>
+			            						<div class="it mmy-name">-</div>
+			            						<div class="it mmy-price">-</div>
+			            					</div>
+			            				</div>
+			            				</div>
+			            				<div class="clearB left freeTransport">
+			            					<div class="tip1">
+			            						<input type="checkbox">
+			            						<span>免邮</span>
+			            						<em>免邮</em>
+			            					</div>
+			            					<div class="tip2 mmy-notran-wrap">
+			            						<a class="mmy-notran">不免邮地区</a>
+			            						<input class="J_mmy_notrandata" type="hidden">
+				            					<em class="topTip">
+				            					<input class="J_mms_mustfull" style="border: none;" type="checkbox">
+				            						<span>
+				            						减后满<b>100</b>才可以享受免邮！</span>
+				            					</em>
+			            					</div>
+			            				</div>
+			            			</td>
+			            		</tr>
+			            	</tbody>
+			            </table>
+			        </div>
+			    </div>
+			    <div class="btn-makeActive moreLevels clearB left">
+			        <a href="javascript:void(0)" data-type="2">
+			            <i></i>
+			            <b>继续添加层级</b>
+			        </a>
+			    </div>
+
+			</form>
+			<div class="item tip">
+			    <span>优惠备注：</span>
+			    <input value="" class="J_input" maxlength="6" placeholder="优惠备注" name="activRemark" type="text">
+			</div>
+			<div class="item go">
+			    <a id="J_mmy_done" class="done">完成活动设置</a>
+			</div>
+		</div>
+    </div>
+</div>
+<!-- 版面1 活动设置 E -->
+	<div class="tab-pane" id="tab-general">
+		<div class="makeActiveForm clearB left">
+	        <div class="back left">
+	            <a href="{:url('Discount/add')}" class="J_mm_link" target="_self">&lt;&lt;返回</a>
+	            <span>满件优惠设置</span>
+	        </div>
+	        <form id="J_mmy_level">
+                <h3 style="float: left;height: 30px;line-height: 30px;margin-top: 20px;font-size: 14px;">活动信息</h3>
+                <div class="item name-new">
+                    <i>*</i>
+                    <span>活动名称：</span>
+                    <input type="text" value="" placeholder="输入活动名称" class="J_input" name="activName">
+                    <input type="hidden" value="" class="J_input" name="activId">
+                </div>
+                <div class="item time-new">
+                    <i>*</i>
+                    <span>活动时间：</span>
+                    <div class="timeChoice">
+                        <input class="Wdate J_input" name="activStartTime" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:00:00'})" value="" type="text">
+
+                        <span>-</span>
+                        <input class="Wdate J_input" name="activEndTime" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:00:00'})" value="" type="text">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="title clearB left">
+                        <i>*</i>
+                        <span>活动商品：</span>
+                        <a class="goodsTab" href="javascript:void(0)">选择指定商品（已选择<b>0</b>个宝贝）</a>
+                    </div>
+                    <div style="display: none;" class="item goodsList">
+                        <div class="titleGoods">
+                            <ul>
+                                <li class="active"><a href="javascript:void(0)">选择商品</a></li>
+                                <li><a href="javascript:void(0)">已选商品</a></li>
+                            </ul>
+                        </div>
+                        <div class="conGoods">
+                            <dl>
+                                <dd class="cur">
+                                    <div class="searchActive-3 left clearB">
+                                        <div class="name left">
+                                            <select name="" id="J_mmy_type">
+                                                <option value="">全部宝贝</option>
+                                            </select>
+                                            <span>活动名称：</span>
+                                            <input type="text" id="J_mmy_name" placeholder="输入宝贝名称">
+                                        </div>
+                                        <div class="searchBtn-3">
+                                            <a id="J_mmy_searchgds">搜索</a>
+                                        </div>
+                                    </div>
+                                    <div class="goodsChoice">
+                                        <table class="tableThime tbt2" id="J_mmy_allgds">
+                                            <thead>
+                                                <tr>
+                                                    <th width="58"></th>
+                                                    <th width="464">宝贝名称</th>
+                                                    <th width="280"></th>
+                                                    <th width="150">操作</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                
+                                            </tbody>
+                                        </table>
+                                        <div class="choiceAll-page left">
+                                            <div class="choiceAll left">
+                                                <p class="huist">
+                                                    <input id="checkAllBtn" type="checkbox" style="float: left; margin-top: 2px; border: none;">
+                                                    <span>全选</span>
+                                                    <a href="javascript:void(0)" id="J_mkmy_selectgds">批量选择</a>
+                                                </p>
+                                                <p>
+                                                    <a href="javascript:void(0)" class="done">保存设置</a>
+                                                </p>
+                                            </div>
+                                            <div class="pagerBar pages right" id="Pagination"></div>
+                                        </div>
+                                    </div>
+                                </dd>
+                                <dd class="hadChoice">
+                                    <div class="title">
+                                        <span>宝贝名称</span>
+                                        <em>操作</em>
+                                        <span>宝贝名称</span>
+                                        <em>操作</em>
+                                    </div>
+                                    <div class="con">
+                                        <div id="J_mmy_selected">
+                                            
+                                        </div>
+                                        <div class="checkBtn left clearB"><a class="done" href="javascript:void(0)">完成选择</a></div>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="J_mmy_lever_wrap">
+                    <div class="con lever byMoney addLever">
+                        <p>
+                            <i>*</i><span>优惠条件：满</span>
+                            <input class="tiao J_num_check J_jian" type="text">
+                            <span>件</span>
+                        </p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><i>*</i><span>优惠内容：</span></td>
+                                    <td>
+                                        <div class="clearB left J_discount">
+                                            <input class="J_check" type="checkbox" style="border: none;">
+                                            <span>打</span>
+                                            <input class="nei J_data J_num_check J_zhe" type="text">
+                                            <span>折</span>
+                                        </div>
+                                        <div class="clearB left giveGift">
+                                            <div class="tip1">
+                                                <input type="checkbox">
+                                                <span>送礼品</span>
+                                                <em>送</em>
+                                            </div>
+                                            <div class="tip2">
+                                                <input class="J_mmyy_name" type="text">
+                                                <input class="J_mmy_giftid" type="hidden">
+                                                <input type="hidden" class="J_mmy_skuid">
+                                                <a class="choiceGft" href="javascript:void(0)">选择礼品</a>
+                                                <em class="topTip">
+                                                    <span>礼品名称限制为10个字符以内</span>
+                                                </em>
+                                            </div>
+                                            <p style="margin-bottom: 0px; color: #CCCCCC; display:none;">
+                                                （礼品库存为0时则停止赠送，请留意礼品库存，在补充库存后，请重新选择一次礼品，则送礼品活动再次开始。）
+                                            </p>
+                                            <div>
+                                                <div class="mmy-gift" style="display:none;">
+                                                    <img src="" width="90" height="90">
+                                                    <span class="mmy-delete">删除</span>
+                                                    <div class="it mmy-name">-</div>
+                                                    <div class="it mmy-price">-</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearB left freeTransport">
+                                            <div class="tip1">
+                                                <input type="checkbox">
+                                                <span>免邮</span>
+                                                <em>免邮</em>
+                                            </div>
+                                            <div class="tip2 mmy-notran-wrap">
+                                                <a class="mmy-notran">不免邮地区</a>
+                                                <input class="J_mmy_notrandata" type="hidden">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--继续创建活动按钮-->
+                <div class="btn-makeActive moreLevels clearB left">
+                    <a href="javascript:void(0)" data-type="1">
+                        <i></i>
+                        <b>继续创建商品活动</b>
+                    </a>
+                </div>
+            </form>
+            <div class="item tip">
+                <span>优惠备注：</span>
+                <input type="text" value="" placeholder="优惠备注" name="activRemark" class="J_input">
+            </div>
+            <div class="item go">
+                <a class="done" id="J_mmy_done">完成活动设置</a>
+            </div>
+	    </div>				
+	</div>
+<!-- 版面2 活动设置 E -->
+
+	<div class="tab-pane" id="tab-discount">
+		 <div class="makeActiveForm clearB left">
+	        <div class="back left">
+	            <a class="J_mm_link" href="{:url('Discount/add')}" target="_self">&lt;&lt;返回</a>
+	            <span>限时促销设置</span>
+	        </div>
+			<h3 style="float: left;height: 30px;line-height: 30px;margin-top: 20px;font-size: 14px;">活动信息</h3>
+	        <div class="tag left clearfix">
+	            <div class="t-clear J_type" style="position: relative;top: 50px;left: -58px;">
+	                <i class="t-font-red">*</i>
+	                <span>类型：</span>
+	                <div>
+	                    <label class="t-left"><input class="t-lineH-40 t-h-40 t-left" type="radio" name="actType" value="206" checked="">限时特价</label>
+	                    <label class="t-left t-mgl-10"><input class="t-lineH-40 t-h-40 t-left" type="radio" name="actType" value="202">限时折扣</label>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="info timeZhe">
+
+	            <!--第一步-->
+	            <div class="step step1">
+	                <div class="title">
+	                    <span>第一步：设置活动名称和促销</span>
+	                    <a class="change" href="javascript:void(0)">收起</a>
+	                </div>
+	                <div class="con">
+	                    <div class="item name-new">
+	                        <i>*</i>
+	                        <span>设置促销名称：</span>
+	                        <input class="J_input" name="activName" type="text" value="">
+	                        <input class="J_input" name="activId" type="hidden" value="">
+	                    </div>
+	                    <div class="item">
+	                        <i>*</i>
+	                        <span>促销开始时间：</span>
+	                        <input class="Wdate J_input" name="activStartTime" id="activStartTime" value="" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:00:00'})" type="text">
+	                    </div>
+	                    <div class="item">
+	                        <i>*</i>
+	                        <span>促销结束时间：</span>
+	                        <input class="Wdate J_input" name="activEndTime" id="activEndTime" value="" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:00:00'})" type="text">
+	                    </div>
+	                    <div class="item">
+	                        <a class="done" href="javascript:void(0)">确定</a>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <!--第二步-->
+	            <div class="step step2">
+	                <div class="title">
+	                    <span>第二步：选择宝贝</span>
+	                    <a class="change" href="javascript:void(0)">修改</a>
+	                </div>
+	                <div class="con goodsChoice" style="display: none;">
+	                    <div class="searchActive-3 left clearB">
+	                        <div class="name left">
+	                            <select name="" id="J_mkdz_sectype">
+	                                <option value="">全部宝贝</option>
+	                            </select>
+	                            <span>商品名称：</span>
+	                            <input type="text" placeholder="输入宝贝名称" id="J_mkdz_secname">
+	                        </div>
+	                        <div class="searchBtn-3">
+	                            <a id="J_mkdz_secsearch">搜索</a>
+	                        </div>
+	                    </div>
+	                    <table class="tableThime tbt3" id="J_mktz_allgds">
+	                        <thead>
+	                        <tr>
+	                            <th style="width: 58px;"></th>
+	                            <th style="width: 480px;">宝贝描述</th>
+	                            <th style="width: 330px;">商品价格</th>
+	                            <th style="width: 150px;">操作</th>
+	                        </tr>
+	                        </thead>
+	                        <tbody>
+	                            <tr data-shopid="12304" data-gdsid="122342609962402011" data-relateid="" data-prictureid="5ae9216b955b506eab8bb94c">
+
+	                                <td class="t0"><input type="checkbox" style="float: none; margin-top: 2px; border: none;"></td>
+	                                <td class="t1">
+	                                    <div class="goods">
+	                                        <div class="pic">
+	                                            <a href="/mall/goods/pageInit?gdsId=122342609962402011" target="_blank">
+	                                                <img src="https://bhimage.caihcloud.com/storageserver/image/5ae9216b955b506eab8bb94c.jpg">
+	                                            </a>
+	                                        </div>
+	                                        <div class="text">
+	                                            <p>【玖嘉久】泰式虾饼 越南油炸虾排虾肉裹粉西餐厅小吃食材300g</p>
+	                                        </div>
+	                                    </div>
+	                                </td>
+	                                <td class="t2">
+	                                    <p>25.80</p>
+	                                    <em style="display:none" class="topTip stY"><span>此商品已参加其他限时打折活动</span></em>
+	                                </td>
+	                                <td class="t3 ctrl">
+	                                    <a href="javascript:void(0)" class="J_mktz_actop">参加活动</a>
+	                                </td>
+	                            </tr>
+	                            <tr data-shopid="12304" data-gdsid="122342609962402056" data-relateid="" data-prictureid="5ae927fb955b506eab8bb984">
+
+	                                <td class="t0"><input type="checkbox" style="float: none; margin-top: 2px; border: none;"></td>
+	                                <td class="t1">
+	                                    <div class="goods">
+	                                        <div class="pic">
+	                                            <a href="/mall/goods/pageInit?gdsId=122342609962402056" target="_blank">
+	                                                <img src="https://bhimage.caihcloud.com/storageserver/image/5ae927fb955b506eab8bb984.jpg">
+	                                            </a>
+	                                        </div>
+	                                        <div class="text">
+	                                            <p>【玖嘉久】蟹柳227g*4袋 泰国蟹足蟹肉棒寿司海鲜火锅冒菜食材</p>
+	                                        </div>
+	                                    </div>
+	                                </td>
+	                                <td class="t2">
+	                                    <p>69.80</p>
+	                                    <em style="display:none" class="topTip stY"><span>此商品已参加其他限时打折活动</span></em>
+	                                </td>
+	                                <td class="t3 ctrl">
+	                                    <a href="javascript:void(0)" class="J_mktz_actop">参加活动</a>
+	                                </td>
+	                            </tr>
+	                            <tr data-shopid="12304" data-gdsid="122342609962402111" data-relateid="" data-prictureid="5ae92cb7955b506eab8bb9be">
+
+	                                <td class="t0"><input type="checkbox" style="float: none; margin-top: 2px; border: none;"></td>
+	                                <td class="t1">
+	                                    <div class="goods">
+	                                        <div class="pic">
+	                                            <a href="/mall/goods/pageInit?gdsId=122342609962402111" target="_blank">
+	                                                <img src="https://bhimage.caihcloud.com/storageserver/image/5ae92cb7955b506eab8bb9be.jpg">
+	                                            </a>
+	                                        </div>
+	                                        <div class="text">
+	                                            <p>【玖嘉久】瑶柱滑 干贝滑贝柱丸 豆捞食材涮火锅料包点心食材120g</p>
+	                                        </div>
+	                                    </div>
+	                                </td>
+	                                <td class="t2">
+	                                    <p>16.80</p>
+	                                    <em style="display:none" class="topTip stY"><span>此商品已参加其他限时打折活动</span></em>
+	                                </td>
+	                                <td class="t3 ctrl">
+	                                    <a href="javascript:void(0)" class="J_mktz_actop">参加活动</a>
+	                                </td>
+	                            </tr>
+	                            <tr data-shopid="12304" data-gdsid="816623276714361113" data-relateid="" data-prictureid="5b9221bf955b5077736d10bd">
+
+	                                <td class="t0"><input type="checkbox" style="float: none; margin-top: 2px; border: none;"></td>
+	                                <td class="t1">
+	                                    <div class="goods">
+	                                        <div class="pic">
+	                                            <a href="/mall/goods/pageInit?gdsId=816623276714361113" target="_blank">
+	                                                <img src="https://bhimage.caihcloud.com/storageserver/image/5b9221bf955b5077736d10bd.jpg">
+	                                            </a>
+	                                        </div>
+	                                        <div class="text">
+	                                            <p>测试勿拍</p>
+	                                        </div>
+	                                    </div>
+	                                </td>
+	                                <td class="t2">
+	                                    <p>0.01</p>
+	                                    <em style="display:none" class="topTip stY"><span>此商品已参加其他限时打折活动</span></em>
+	                                </td>
+	                                <td class="t3 ctrl">
+	                                    <a href="javascript:void(0)" class="J_mktz_actop">参加活动</a>
+	                                </td>
+	                            </tr>
+	                        </tbody>
+	                    </table>
+	                    <div class="choiceAll-page left">
+	                        <div class="choiceAll left">
+	                            <p class="huist">
+	                                <input id="checkAllBtn" type="checkbox" style="float: left; margin-top: 2px; border: none;">
+	                                <span>全选</span>
+	                                <a href="javascript:void(0)" id="J_mktz_selectgds">批量选择</a>
+	                            </p>
+	                            <p>
+	                                <a href="javascript:void(0)" class="done">完成选择</a>
+	                            </p>
+	                        </div>
+	                        <div class="pagerBar pages right" id="Pagination"><span>共<b class="orange">&nbsp;4&nbsp;</b>条记录</span><li class="">上一页</li><li class="pgCurrent">1</li><li class="">下一页 </li><span style="padding-right:0px">跳到<input type="text" style="float:none;text-align:center;height:31px;width:auto;text-align: center;margin-top:-6px;font-size:14px;padding:1px;" value="1" id="jump-index" title="请输入正整数" size="1">/1</span><a href="#">确定</a></div>
+	                    </div>
+	                </div>
+	            </div>
+
+	            <!--第三步-->
+	            <div class="step step3" id="J_third_gdsselected">
+	                <div class="title">
+	                    <span>第三步：设置限时特价/折扣</span>
+	                    <a class="change" href="javascript:void(0)">修改</a>
+	                </div>
+	                <div class="con" style="display: none;">
+	                    <div class="searchActive-3 left clearB">
+	                        <div class="name left" style="margin-right: 20px; position: relative;">
+	                                                                                <span>批量设置：限时特价</span>
+	                                <input type="text" value="" class="J_num_check" id="J_mktz_rateval">
+	                                <span>元</span>
+	                                <div class="numTip2 t-hide">批量设置的商品价格不合法</div>
+	                                                </div>
+	                        <div class="name left onlyNumBy">
+	                            <span>每人限购件数</span>
+	                            <input type="text" class="J_limitNum" value="不限" id="J_mktz_numval">
+	                            <em></em>
+	                            <dl>
+	                                <dd>1</dd>
+	                                <dd>5</dd>
+	                                <dd>不限</dd>
+	                            </dl>
+	                            <div class="numTip">不能为“0”，或为空</div>
+	                        </div>
+
+	                        <div class="searchBtn-3">
+	                                                     <a id="J_mktz_setrateandnum" targettype="tejia">确定</a> 
+	                        </div>
+	                    </div>
+	                    <table class="tableThime tbt4" id="J_mktz_thir">
+	                        <thead>
+	                        <tr>
+	                            <th style="width: 380px;">宝贝描述</th>
+	                            <th style="width: 114px;">商品价格</th>
+	                                                        <th style="width: 256px;">限时特价</th>
+	                            
+	                            <th style="width: 160px;">每人限购件数</th>
+	                            <th style="width: 108px;">操作</th>
+	                        </tr>
+	                        </thead>
+	                        <tbody>
+
+	                        </tbody>
+	                    </table>
+	                </div>
+	            </div>
+
+
+	            <div class="item tip">
+	                <span>优惠备注：</span>
+	                <input type="text" value="" name="activRemark" placeholder="优惠备注" class="J_input">
+	            </div>
+	            <div class="item go">
+	                <a class="done" id="J_mkdz_submit" targetdown="1" tag="tejia">完成活动设置</a>
+	            </div>
+	        </div>
+    	</div>
+	</div>
+<!-- 版面3 活动设置 E -->
+
+			</div><!--  tab-content-->
+		</div><!-- col-xs-12 -->
+	</div><!-- row -->
+{/block}
+{block name="script"}
+ 	<script>
+ 		function onclick(event){
+	 		WdatePicker({
+	 			dateFmt:'yyyy-MM-dd HH:mm:ss'
+	 		})
+	 	}
+
+ 	</script>
+
+
+{/block}

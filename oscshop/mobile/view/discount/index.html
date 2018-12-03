@@ -1,0 +1,110 @@
+{extend name="public:base" /}
+{block name="head"}
+	<link href="__PUBLIC__/view_res/mobile/css/discount.css" type="text/css" rel="Stylesheet" />
+	<script>
+		var pixclPatio = 1 / window.devicePixelRatio;
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixclPatio+',minimum-scale='+pixclPatio+',maximum-scale='+pixclPatio+',user-scalable=no" />');
+			
+		var html = document.getElementsByTagName('html')[0];
+		var pageWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = pageWidth /15 + 'px';
+	</script>
+
+{/block}
+
+{block name="header"}
+	{include file="public/top-nav" /}
+{/block} 
+
+{block name="content"}
+	<div id="seckill_banner">
+		<img src="/public/static/view_res/mobile/images/new_index/seckill_ads.png" alt="">
+	</div>
+	<div id="seckill_now">
+		<div class="countdown">
+			<div class="logo_times"></div>
+			<div class="subtitle">
+				<p class="countdown_text" id="timeLimit">
+				<strong>距离本场抢购结束还有</strong>
+					<span class="box"></span><strong>小时</strong>
+					<span class="box"></span><strong>分</strong>
+					<span class="box"></span><strong>秒</strong>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="subtitle_next">
+		<div class="next_seckill">
+			<a href="{:url('Discount/discount')}" class="next">查看下场抢购商品&gt;&gt;</a>
+		</div>
+	</div>
+	
+	<div id="seckill_items">
+		<section class="seckill_list">
+			{volist name="goods" id="v"}
+			<a href="/mobile/goods/detail/id/{$v.0.goods_id}" class="sku_item">
+				<!--<img src="/public/static/view_res/mobile/images/new_index/seckill_list_p.png" alt="">-->
+				<img src="/public/uploads/{$v.0.image}" alt="">
+				<div class="seckill_meta">
+					
+					
+					<h4>{$v.0.name}</h4>
+					<!--<p class="shop_name"><i></i><span>鑫瑶果神</span></p>-->
+					<p class="seckill_price">
+						<span>秒杀价</span>
+						<span>&yen;<strong>{$v.discount_price}</strong></span>
+						<del>&yen;{$v.0.originalprice}</del>
+					</p>
+
+					
+		         
+		            	
+		            	</dl>
+            		
+					<p class="seckill_btn">
+						<button class="seckill_buy">马上抢</button>
+					</p>
+					<h6>库存:{$v.0.quantity}份</h6>
+				
+					
+				</div>
+			</a>
+			{/volist}
+		</section>
+	</div>
+	
+{/block} 
+
+{block name="footer"}
+	{include file="public/footer-nav" /}
+{/block}
+
+{block name="script"}
+	<script>
+		function countTime(){
+		var date = new Date();
+		var now =date.getTime();
+		var end = new Date('{$timeoff}').getTime();
+		var leftTime = end-now;
+		var H,M,S;
+		if(leftTime>=0){
+			H = (Math.floor(leftTime / 1000 / 60 / 60 / 24))*24+(Math.floor(leftTime/(1000*60*60))%24);
+			M = Math.floor(leftTime / 1000 / 60 % 60);
+			S = Math.floor(leftTime / 1000 % 60);
+			$('#timeLimit span:eq(0)').html(H);
+			$('#timeLimit span:eq(1)').html(M);
+			$('#timeLimit span:eq(2)').html(S);
+			leftTime--;
+
+			setTimeout(countTime, 1000);
+		}else{
+			$("#timeLimit").html();
+			$("#timeLimit").html('活动已过期！！！');
+		}
+	}
+	countTime();
+		
+	</script>
+	
+{/block} 
+

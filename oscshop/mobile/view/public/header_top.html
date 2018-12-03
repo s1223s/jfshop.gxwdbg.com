@@ -1,0 +1,27 @@
+<header class="header_box">
+	<a href="" class="btn_type"></a>
+	<div id="search_box">
+		<form action="" class="search_form" onsubmit='searchdo(this);return false;'>
+			<input type="search" class="search_input" targ="{:url('search/index')}" value="{:input('param.search')}">
+		</form>
+	</div>
+	<a href="" class="btn_ms"></a>
+</header>
+<script>
+function searchdo(form) {
+    var search = $('input[type=search]', form);
+    if (search.val() === '')
+    return;            
+ 	var url = search.attr('targ');
+ 	
+    var query = $('.header_box').find('input,select').serialize();
+    query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g, '');
+    query = query.replace(/^&/g, '');
+    if (url.indexOf('?') > 0) {
+        url += '&' + query;
+    } else {
+        url += '?' + query;
+    }
+    window.location.href = url;            
+}	
+</script>

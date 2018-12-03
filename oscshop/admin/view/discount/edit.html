@@ -1,0 +1,438 @@
+{extend name="public:base" /}
+{block name="header"}
+<link  href="" rel="stylesheet" type="css">
+<script src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+
+{/block}
+{block name="css"}
+<style>
+	input#time_start,input#time_end{
+		height: 28px;
+	}
+	.Wdate {
+		width: 150px;
+		height: 28px;
+		line-height: 28px;
+    	background: #fff url(/public/static/js/My97DatePicker/skin/datePicker.gif) no-repeat right!important;
+	}
+	.form-group {
+	    margin-top: 10px!important;
+	    margin-bottom: 36px!important;
+	}
+	#Pagination {
+    	float: right;
+	}
+	.pagerBar {
+	    height: 28px;
+	    margin-top: 30px;
+	    margin-bottom: 15px;
+	    text-align: center;
+	    position: relative;
+	    font-size: 14px;
+	}
+	.pages span {
+		display: inline-block;
+	    height: 32px;
+	    padding: 2px 10px;
+	    margin-left: 3px;
+	    line-height: 48px;
+	    font-size: 14px;
+	    overflow: hidden;
+	}
+	.pagerBar li, .pagerBar a {
+		display: inline-block;
+	    width: auto;
+	    height: 32px;
+	    padding: 0px 12px;
+	    background: #f7f7f7;
+	    text-align: center;
+	    line-height: 32px;
+	}
+	.shangping{
+		width:213px;
+		height:34px;
+		border:2px solid red;
+		display: none;
+	}
+	.shangping select.choose{
+		width: 210px;
+		height: 30px;
+		border:1px solid yellow;
+	}
+	.shangping select option.getname{
+		font-size:14px;
+	}
+</style>
+{/block}
+{block name="content"}
+<script src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+
+	<div class="page-header">
+		<h1>
+			{$breadcrumb1}
+			<small>
+				<i class="ace-icon fa fa-angle-double-right"></i>
+				{$breadcrumb2}
+			</small>
+			<small>
+				<i class="ace-icon fa fa-angle-double-right"></i>
+				{$crumbs}
+			</small>			
+			<button id="send" form="form-goods" type="submit" style="float:right;"  class="btn btn-sm btn-primary">提交</button>			
+		</h1>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">	
+			<div class="panel-body">
+				<form action="">
+					<ul class="nav nav-tabs">
+			          	<li class="active"><a href="#tab-data" data-toggle="tab">买/满就送</a></li>
+			          	
+			            <li><a href="#tab-general" data-toggle="tab">满件优惠</a></li>
+			            <li><a href="#tab-discount" data-toggle="tab">限时秒杀</a></li>   
+	          		</ul>
+	          		<div class="tab-content">
+	          		 	<div class="tab-pane active" id="tab-data">
+	          		 		<div class="table-responsive">
+				                <table id="discount-sale" class="table table-striped table-bordered table-hover">
+									<thead>
+										<tr>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody></tbody>
+								</table>
+		                		<div>
+		                			<a class="add_image btn btn-primary " href="{:url("Discount/active")}">
+		                				<i class="ace-icon fa fa-destop"></i>
+		                			新增买/满就送
+		                			</a>
+		                		</div>
+                  			</div>
+							<div class="form-group required">
+								<label class="col-sm-2 control-label" for="input-name2">折扣名称：</label>
+								<div class="col-sm-3">
+									<input id="input-name2" class="form-control" type="text" placeholder="折扣名称" value="" name="name">
+								</div>
+								<div class="col-sm-6">
+									<label class="control-label" for="input-name2">折扣时间：</label>
+									<input class="Wdate" name="start" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="time_start">
+									<span>-</span>
+									<input class="Wdate" name="start" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="time_end">
+								</div>
+								<div class="col-sm-1">
+									<a href="" id="search-sale">搜索</a>
+								</div>
+							</div>
+
+							<div class="col-xs-12" style="margin: 16px 0;">
+								<table id="table" class="table table-striped table-bordered table-hover">
+									<thead>
+										<tr>
+											<th>折扣名称</th>
+											<th>折扣有效期</th> 			
+											<th>折扣状态</th>
+											<th>相关操作</th>		
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="pagerBar pages" id="Pagination">
+        							<span>共<b class="orange">&nbsp;0&nbsp; </b>条记录
+       	 							</span>
+        							<li class="">上一页</li>
+        							<li class="pgCurrent">1</li>
+        							<li class="">下一页 </li>
+        							<span style="padding-right:0px">跳到
+        								<input type="text" style="float:none;text-align:center;height:31px;width:auto;text-align: center;margin-top:-6px;font-size:14px;padding:1px;" value="1" id="jump-index" title="请输入正整数" size="1">/1
+        							</span>
+        							<a href="#">确定</a></div>
+								</div>
+	          		 	</div>
+	          		 	<div class="tab-pane" id="tab-general">
+	          		 		<div class="table-responsive">
+				                <table id="discount-hot" class="table table-striped table-bordered table-hover">
+									<thead>
+										<tr>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody></tbody>
+								</table>
+		                		<div>
+		                			<a class="add_image btn btn-primary" href="{:url("Discount/active")}">
+		                				<i class="ace-icon fa fa-destop"></i>
+		                			创建优惠方式
+		                			</a>
+		                		</div>
+			                	<div class="form-group required">
+									<label class="col-sm-2 control-label" for="input-name2">折扣名称：</label>
+									<div class="col-sm-3">
+										<input id="input-name2" class="form-control" type="text" placeholder="折扣名称" value="" name="name">
+									</div>
+									<div class="col-sm-6">
+										<label class="control-label" for="input-name2">折扣时间：</label>
+										<input class="Wdate" name="start" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="time_start">
+										<span>-</span>
+										<input class="Wdate" name="start" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="time_end">
+									</div>
+									<div class="col-sm-1">
+										<a href="" id="search-sale">搜索</a>
+									</div>
+								</div>
+                  			</div>
+
+                  			<div class="col-xs-12" style="margin: 16px 0;">
+								<table id="table" class="table table-striped table-bordered table-hover">
+									<thead>
+										<tr>
+											<th>商品名称</th>
+											<th>折扣价格</th>
+											<th>开始时间</th> 
+											<th>结束时间</th>	
+											<th>折扣数量</th>		
+											<th>折扣状态</th>
+											<th>相关操作</th>		
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="pagerBar pages" id="Pagination">
+        							<span>共<b class="orange">&nbsp;0&nbsp; </b>条记录
+       	 							</span>
+        							<li class="">上一页</li>
+        							<li class="pgCurrent">1</li>
+        							<li class="">下一页 </li>
+        							<span style="padding-right:0px">跳到
+        								<input type="text" style="float:none;text-align:center;height:31px;width:auto;text-align: center;margin-top:-6px;font-size:14px;padding:1px;" value="1" id="jump-index" title="请输入正整数" size="1">/1
+        							</span>
+        							<a href="#">确定</a></div>
+								</div>
+	          		 	</div>
+	          		 	<div class="tab-pane" id="tab-discount">
+	          		 		<div class="table-responsive">
+				                <table id="discount-sole" class="table table-striped table-bordered table-hover">
+									<thead>
+										<tr>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody></tbody>
+								</table>
+		                		<div>
+		                			<a class="add_image btn btn-primary " id="addParent">
+		                			创建秒杀商品
+		                			</a>
+		                		</div>
+			                		<div class="form-group required">
+										<label class="col-sm-2 control-label pdl" for="input-name2">商品名称：</label>
+										<div class="col-sm-3">
+											<input id="input-name2" class="form-control" type="text" placeholder="折扣名称" value="" name="name">
+										</div>
+										<div class="col-sm-6">
+											<label class="control-label" for="input-name2">秒杀时间：</label>
+											<input class="Wdate" name="start" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="time_start">
+											<span>-</span>
+											<input class="Wdate" name="start" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="time_end">
+										</div>
+										<div class="col-sm-1">
+											<a href="" id="search-sale">搜索</a>
+										</div>
+									</div>
+                  			</div>
+							<div class="col-xs-12" style="margin: 16px 0;">
+								<table id="table" class="table table-striped table-bordered table-hover">
+									<thead>
+										<tr>
+											<th>折扣序号</th>
+											<th>商品名称</th>
+											<th>折扣价格</th>
+											<th>开始时间</th>
+											<th>结束时间</th>
+											<th>折扣数量</th>
+											<th>折扣状态</th>
+											<th>相关操作</th>		
+										</tr>
+									</thead>
+									<tbody>
+										{volist name="discount" id="d"}
+										<tr>
+											<td>{$d.discount_id}</td>
+											<td>{$d.0.name}</td>
+											<td>{$d.discount_price}</td>
+											<td>{$d.discount_on_time}</td>
+											<td>{$d.discount_off_time}</td>
+											<td>{$d.quantity}</td>
+											<td></td>
+											<td>
+												<a href="" class="execute btn btn-xs btn-success">执行</a>
+												<a href='' class="editing btn btn-xs btn-primary">修改</a>
+												<a class="delete btn btn-xs btn-danger" href='{:url("Discount/del",array("discount_id"=>$d["discount_id"]))}' >
+													<i class="fa fa-trash bigger-120"></i>
+												</a>
+
+											</td>
+										</tr>
+										{/volist}
+									</tbody>
+								</table>
+								<div class="pagerBar pages" id="Pagination">
+        							<span>共<b class="orange">&nbsp;0&nbsp; </b>条记录
+       	 							</span>
+        							<li class="">上一页</li>
+        							<li class="pgCurrent">1</li>
+        							<li class="">下一页 </li>
+        							<span style="padding-right:0px">跳到
+        								<input type="text" style="float:none;text-align:center;height:31px;width:auto;text-align: center;margin-top:-6px;font-size:14px;padding:1px;" value="1" id="jump-index" title="请输入正整数" size="1">/1
+        							</span>
+        							<a href="#">确定</a></div>
+								</div>
+								<div id="dialog" class="dialog" style="display:none">
+								    <div class="dialog_content">
+								    
+								        <dl>
+								        <label class="col-sm-2 control-label" for="input-length-class">所属商户：</label>
+					
+											<select id="input-length-class" class="form-control" name="merchantNo" >
+												{volist name="merchants" id="v"}
+													<option value="{$v.merchant_id}">{$v.merchants_name}</option>
+												{/volist}
+											</select>
+											<div class="shangping">
+												<select name="goods_id" id="choose" class="choose">
+
+													{volist name="goods_id" id="q"}
+													<option value="{$q.goods_id}" name="goods_id">{$q.name}</option>
+													{/volist}
+
+												</select>
+											</div>
+								        	<dt>折扣价格</dt>
+								    		<dd><input name="discount_price" type="text" value=""   /></dd>    	
+								    		
+								    		<dt>开始时间</dt>
+								    		<dd><input class="Wdate" name="discount_on_time" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="discount_on_time"></dd>  
+								    		
+								    		<dt>结束时间</dt>
+								    		<dd><input class="Wdate" name="discount_off_time" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" type="text" id="discount_off_time"></dd> 
+								    		
+								    		<dt>数量</dt>
+								    		<dd><input name="quantity" type="text" value=""  /></dd> 
+								    		
+								        </dl> 
+
+
+								   
+								      
+								    </div>
+								  </div> 
+
+	          		 	</div>
+				</form>
+			</div>
+		</div>
+	</div>
+{/block}
+{block name="javascript"}
+	<script>
+		$(document).ready(function(){
+		$("#addParent").bind("click", {isParent:true}, add);
+	});
+		function add(e) {
+			console.log(e)
+			
+			var dialog=$('#dialog').html();
+			 
+			var title='新增折扣';
+			
+			art.dialog({
+				title: title,
+				content:dialog,
+				lock: true,
+				ok: function () {	 		
+			 	  save('add');	    	
+			      return false;
+			    },
+			    cancelVal: '关闭',
+				cancel: true 
+			});	
+
+			var tanchuang = $('.dialog_content').find('#input-length-class');
+			var chuang = $('.dialog_content').find('.shangping');
+			var item = $('.dialog_content').find('#choose');
+			tanchuang.change(function(){
+				// alert($(this).children('option:selected').val()); 
+					$.ajax({
+						url:"{:url('Discount/goodschs')}",
+						type:'post',
+						data:{merchantNo:$('#input-length-class').val()},
+						dataType: 'json',
+						success:function(data){
+							console.log(data);
+							chuang.show();
+							var list = "";
+							for(i=0;i<data.length;i++){
+								console.log(data.length)
+								list+="<option value='"+data[i].goods_id+"'>"+data[i].name+"</option>";
+								item.empty();
+								item.append(list);
+								
+							 
+							}
+						},
+						error:function(data){
+
+						}
+
+					});
+			});
+		}
+			
+		
+		function onclick(event){
+			WdatePicker({
+				dateFmt:"yyyy-MM-dd HH:00:00"
+			})
+		}
+		function save(type){
+			//alert($('#choose').val())
+			$.post(
+				'{:url("Discount/add")}',
+				{					
+					'goods_id':$('#choose').val(),
+					'discount_price':$("input[name='discount_price']").val(),
+					'discount_on_time':$("input[name='discount_on_time']").val(),
+					'discount_off_time':$("input[name='discount_off_time']").val(),
+					'quantity':$("input[name='quantity']").val()
+					
+				},
+				function(d){			
+					alert(d);
+				}
+			);	
+			//alert($("input[name='goods_id']").val());
+		}
+			
+
+			
+
+	</script>
+{/block}

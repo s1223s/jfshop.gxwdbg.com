@@ -1,0 +1,3061 @@
+---------------------------------------------------------------
+[ 2018-11-30T09:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.236264s][吞吐率：4.23req/s] [内存消耗：1,923.17kb] [文件加载：48]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:42:51+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.067715s][吞吐率：14.77req/s] [内存消耗：1,220.06kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:43:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.021233s][吞吐率：47.10req/s] [内存消耗：1,771.43kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:44:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.018126s][吞吐率：55.17req/s] [内存消耗：1,771.43kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542212; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:44:19+08:00 ] 127.0.0.1 127.0.0.1 GET /moild
+[ info ] jfshopt.gxwdbg.com/moild [运行时间：0.015352s][吞吐率：65.14req/s] [内存消耗：1,220.39kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'moild',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542248; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:44:19+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.014855s][吞吐率：67.32req/s] [内存消耗：1,220.06kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542248; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/moild',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:45:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.020450s][吞吐率：48.90req/s] [内存消耗：1,771.43kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542248; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:45:37+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.017785s][吞吐率：56.23req/s] [内存消耗：1,771.43kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542336; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:45:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.018840s][吞吐率：53.08req/s] [内存消耗：1,771.43kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542337; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:45:55+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/111
+[ info ] jfshopt.gxwdbg.com/goods/111 [运行时间：0.379894s][吞吐率：2.63req/s] [内存消耗：2,572.97kb] [文件加载：54]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'goods',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542354; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'referer' => 'http://jfshopt.gxwdbg.com/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Goods->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/index/view/goods/index.html [ array (
+  0 => 'top_nav',
+  1 => 'SEO',
+  2 => 'goods',
+  3 => 'image',
+  4 => 'options',
+  5 => 'discount',
+  6 => 'mobile_description',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:45:55+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/
+[ info ] jfshopt.gxwdbg.com/goods/ [运行时间：0.019880s][吞吐率：50.30req/s] [内存消耗：1,220.46kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'goods',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542356; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/goods/111',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:45:56+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.020265s][吞吐率：49.35req/s] [内存消耗：1,220.09kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542356; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/goods/111',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:46:26+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/111
+[ info ] jfshopt.gxwdbg.com/goods/111 [运行时间：0.093831s][吞吐率：10.66req/s] [内存消耗：2,389.36kb] [文件加载：52]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'goods',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542356; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'referer' => 'http://jfshopt.gxwdbg.com/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'id' => '111',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Goods->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/index/view/goods/index.html [ array (
+  0 => 'top_nav',
+  1 => 'SEO',
+  2 => 'goods',
+  3 => 'image',
+  4 => 'options',
+  5 => 'discount',
+  6 => 'mobile_description',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T09:46:26+08:00 ] 127.0.0.1 127.0.0.1 GET /goods/
+[ info ] jfshopt.gxwdbg.com/goods/ [运行时间：0.022049s][吞吐率：45.35req/s] [内存消耗：1,220.46kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'goods',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542356; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/goods/111',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:29:06+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.359078s][吞吐率：2.78req/s] [内存消耗：2,566.72kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542387; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:29:07+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.030194s][吞吐率：33.12req/s] [内存消耗：1,221.02kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543544947; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/discount/prize
+[ info ] jfshopt.gxwdbg.com/mobile/discount/prize [运行时间：0.034720s][吞吐率：28.80req/s] [内存消耗：1,663.35kb] [文件加载：48]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'discount',
+    2 => 'prize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543544947; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/login/login
+[ info ] jfshopt.gxwdbg.com/mobile/login/login [运行时间：0.030322s][吞吐率：32.98req/s] [内存消耗：1,809.74kb] [文件加载：48]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543544947; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Login->login[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Login.php ]
+[ info ] [ VIEW ] ./oscshop/mobile/view/login/login.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:34:23+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.016065s][吞吐率：62.25req/s] [内存消耗：1,221.57kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545262; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545263; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/login/login',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:34:25+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/login/login
+[ info ] jfshopt.gxwdbg.com/mobile/login/login [运行时间：0.178031s][吞吐率：5.62req/s] [内存消耗：2,385.05kb] [文件加载：54]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/login/login',
+  'content-length' => '38',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545262; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545263; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+)
+[ info ] [ PARAM ] array (
+  'username' => 's1223s',
+  'password' => 'qinjiajun1103',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Login->login[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:34:26+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.032414s][吞吐率：30.85req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545262; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545263; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/login/login',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:35:53+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.082160s][吞吐率：12.17req/s] [内存消耗：2,569.65kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545268; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545268; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/login/login',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:35:55+08:00 ] 127.0.0.1 127.0.0.1 GET /discount/prize
+[ info ] jfshopt.gxwdbg.com/discount/prize [运行时间：0.013535s][吞吐率：73.88req/s] [内存消耗：1,223.01kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'discount',
+    1 => 'prize',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545354; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545354; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:35:55+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.014743s][吞吐率：67.83req/s] [内存消耗：1,222.07kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545354; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545354; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/discount/prize',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:36:10+08:00 ] 127.0.0.1 127.0.0.1 GET /discount/prize
+[ info ] jfshopt.gxwdbg.com/discount/prize [运行时间：0.013109s][吞吐率：76.28req/s] [内存消耗：1,223.01kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'discount',
+    1 => 'prize',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545354; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545354; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:36:13+08:00 ] 127.0.0.1 127.0.0.1 GET /discount/prize
+[ info ] jfshopt.gxwdbg.com/discount/prize [运行时间：0.012349s][吞吐率：80.98req/s] [内存消耗：1,223.01kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'discount',
+    1 => 'prize',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545354; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545354; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.080439s][吞吐率：12.43req/s] [内存消耗：2,569.65kb] [文件加载：55]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545354; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545354; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/login/login',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:37:03+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/discount/prize
+[ info ] jfshopt.gxwdbg.com/mobile/discount/prize [运行时间：0.086605s][吞吐率：11.55req/s] [内存消耗：2,596.26kb] [文件加载：56]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'discount',
+    2 => 'prize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545423; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545423; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->prize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/prize.html [ array (
+  0 => 'userinfo',
+  1 => 'uid',
+  2 => 'SEO',
+  3 => 'top_title',
+  4 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:37:04+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.015621s][吞吐率：64.02req/s] [内存消耗：1,222.20kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545424; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545424; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:37:06+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/reward
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/reward [运行时间：0.103824s][吞吐率：9.63req/s] [内存消耗：2,304.43kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'reward',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545424; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545424; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->reward[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:37:10+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/reward
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/reward [运行时间：0.050969s][吞吐率：19.62req/s] [内存消耗：2,304.43kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'reward',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545424; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545424; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->reward[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:37:13+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/reward
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/reward [运行时间：0.051060s][吞吐率：19.58req/s] [内存消耗：2,304.43kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'reward',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545424; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545424; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->reward[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.039206s][吞吐率：25.51req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545424; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545424; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:38:12+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.031064s][吞吐率：32.19req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545458; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545458; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:38:58+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.031962s][吞吐率：31.29req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545493; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545493; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:39:55+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.034487s][吞吐率：29.00req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545539; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545539; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:40:35+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.038345s][吞吐率：26.08req/s] [内存消耗：2,398.68kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545595; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545596; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:40:48+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.014465s][吞吐率：69.13req/s] [内存消耗：1,222.20kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545636; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545636; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:40:49+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/discount/prize
+[ info ] jfshopt.gxwdbg.com/mobile/discount/prize [运行时间：0.038964s][吞吐率：25.66req/s] [内存消耗：2,423.93kb] [文件加载：54]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'discount',
+    2 => 'prize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545636; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545636; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->prize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/prize.html [ array (
+  0 => 'userinfo',
+  1 => 'uid',
+  2 => 'SEO',
+  3 => 'top_title',
+  4 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:40:56+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.081576s][吞吐率：12.26req/s] [内存消耗：2,595.22kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545649; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545649; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:67]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:70]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:80]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:81]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+---------------------------------------------------------------
+[ 2018-11-30T10:40:56+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.123593s][吞吐率：8.09req/s] [内存消耗：1,686.38kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545649; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545649; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:40:56+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.014303s][吞吐率：69.91req/s] [内存消耗：1,222.20kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545657; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545657; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:41:08+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.034210s][吞吐率：29.23req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545657; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545657; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:42:05+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/user/index
+[ info ] jfshopt.gxwdbg.com/mobile/user/index [运行时间：0.101768s][吞吐率：9.83req/s] [内存消耗：2,574.21kb] [文件加载：56]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545669; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545669; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\User->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/user/index.html [ array (
+  0 => 'no_pay',
+  1 => 'paid',
+  2 => 'userinfo',
+  3 => 'SEO',
+  4 => 'uid',
+  5 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:42:05+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.012710s][吞吐率：78.68req/s] [内存消耗：1,222.07kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545726; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545726; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/user/index',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:42:07+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.039417s][吞吐率：25.37req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545726; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545726; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/user/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:42:08+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/discount/prize
+[ info ] jfshopt.gxwdbg.com/mobile/discount/prize [运行时间：0.033083s][吞吐率：30.23req/s] [内存消耗：2,423.93kb] [文件加载：54]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'discount',
+    2 => 'prize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545728; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545728; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->prize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/prize.html [ array (
+  0 => 'userinfo',
+  1 => 'uid',
+  2 => 'SEO',
+  3 => 'top_title',
+  4 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:42:10+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.036345s][吞吐率：27.51req/s] [内存消耗：2,434.77kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545729; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545729; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:67]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:70]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:80]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:81]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+---------------------------------------------------------------
+[ 2018-11-30T10:42:10+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.042044s][吞吐率：23.78req/s] [内存消耗：1,686.38kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545729; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545729; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:07+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.075600s][吞吐率：13.23req/s] [内存消耗：2,610.68kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545730; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545730; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:07+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.048622s][吞吐率：20.57req/s] [内存消耗：1,686.38kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545730; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545730; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:20+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.082393s][吞吐率：12.14req/s] [内存消耗：2,603.15kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545788; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545788; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:20+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.038696s][吞吐率：25.84req/s] [内存消耗：1,686.38kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545788; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545788; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:21+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.035415s][吞吐率：28.24req/s] [内存消耗：2,438.70kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545800; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545800; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:21+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.040994s][吞吐率：24.39req/s] [内存消耗：1,686.38kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545800; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545800; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:37+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.040736s][吞吐率：24.55req/s] [内存消耗：2,438.75kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545802; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545802; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:43:37+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.039455s][吞吐率：25.35req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545802; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545802; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:10+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.085774s][吞吐率：11.66req/s] [内存消耗：2,611.20kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545818; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545819; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:11+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.040810s][吞吐率：24.50req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545818; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545819; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:12+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.034205s][吞吐率：29.24req/s] [内存消耗：2,446.75kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545851; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545851; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:12+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.045448s][吞吐率：22.00req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545851; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545851; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:17+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.079091s][吞吐率：12.64req/s] [内存消耗：2,595.08kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545852; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545852; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: v[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:63]
+[ error ] [8]未定义变量: v[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:63]
+[ error ] [8]未定义变量: v[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:63]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:17+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.044674s][吞吐率：22.38req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545852; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545852; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:29+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.074989s][吞吐率：13.34req/s] [内存消耗：2,595.08kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545858; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545858; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: v[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:63]
+[ error ] [8]未定义变量: v[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:63]
+[ error ] [8]未定义变量: v[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:63]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:29+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.037158s][吞吐率：26.91req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545858; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545858; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:43+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.079652s][吞吐率：12.55req/s] [内存消耗：2,603.20kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545869; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545869; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:44:43+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.038286s][吞吐率：26.12req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545869; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545869; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:45:25+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.031514s][吞吐率：31.73req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545884; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545884; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:45:28+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/user/index
+[ info ] jfshopt.gxwdbg.com/mobile/user/index [运行时间：0.049263s][吞吐率：20.30req/s] [内存消耗：2,414.88kb] [文件加载：54]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545926; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545926; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\User->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/user/index.html [ array (
+  0 => 'no_pay',
+  1 => 'paid',
+  2 => 'userinfo',
+  3 => 'SEO',
+  4 => 'uid',
+  5 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:49:24+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.074659s][吞吐率：13.39req/s] [内存消耗：2,597.37kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545928; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545928; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:49:24+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.048753s][吞吐率：20.51req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543545928; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543545928; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:49:47+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.079111s][吞吐率：12.64req/s] [内存消耗：2,597.37kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546165; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546165; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:49:47+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.043139s][吞吐率：23.18req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546165; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546165; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:50:33+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.028995s][吞吐率：34.49req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546188; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546188; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:50:46+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/discount/prize
+[ info ] jfshopt.gxwdbg.com/mobile/discount/prize [运行时间：0.035123s][吞吐率：28.47req/s] [内存消耗：2,423.98kb] [文件加载：54]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'discount',
+    2 => 'prize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546234; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546234; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->prize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/prize.html [ array (
+  0 => 'userinfo',
+  1 => 'uid',
+  2 => 'SEO',
+  3 => 'top_title',
+  4 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:50:47+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.074439s][吞吐率：13.43req/s] [内存消耗：2,598.02kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546247; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546247; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:50:47+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.041828s][吞吐率：23.91req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546247; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546247; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:51:46+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.074915s][吞吐率：13.35req/s] [内存消耗：2,602.61kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546248; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546248; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:68]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:69]
+[ error ] [8]未定义数组下标: 0[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:71]
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:51:46+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.037750s][吞吐率：26.49req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546248; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546248; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T10:53:30+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/discount
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/discount [运行时间：0.091609s][吞吐率：10.92req/s] [内存消耗：2,585.27kb] [文件加载：56]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'discount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546308; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546307; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->discount[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/discount.html [ array (
+  0 => 'goods',
+  1 => 'discount_price',
+  2 => 'timeon',
+  3 => 'timeoff',
+  4 => 'SEO',
+  5 => 'top_title',
+  6 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:53:31+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.014712s][吞吐率：67.97req/s] [内存消耗：1,222.20kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546411; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546411; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/discount',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:53:59+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.030952s][吞吐率：32.31req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546411; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546411; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/discount',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:54:00+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/discount/prize
+[ info ] jfshopt.gxwdbg.com/mobile/discount/prize [运行时间：0.030490s][吞吐率：32.80req/s] [内存消耗：2,423.98kb] [文件加载：54]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'discount',
+    2 => 'prize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546439; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546439; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->prize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/prize.html [ array (
+  0 => 'userinfo',
+  1 => 'uid',
+  2 => 'SEO',
+  3 => 'top_title',
+  4 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-30T10:54:01+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/Discount/myprize
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/myprize [运行时间：0.089485s][吞吐率：11.18req/s] [内存消耗：2,597.99kb] [文件加载：59]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'myprize',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546441; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546441; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->myprize[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/discount/myprize.html [ array (
+  0 => 'SEO',
+  1 => 'top_title',
+  2 => 'flag',
+  3 => 'prize',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant winning_prize - assumed 'winning_prize'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:82]
+[ error ] [8]Use of undefined constant winning_time - assumed 'winning_time'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:83]
+[ error ] [8]Use of undefined constant status - assumed 'status'[/Library/WebServer/Documents/jfshop.gxwdbg.com/runtime/temp/4e018588ffe5ca86faf60b232da86d7e.php:85]
+---------------------------------------------------------------
+[ 2018-11-30T10:54:01+08:00 ] 127.0.0.1 127.0.0.1 POST /mobile/Discount/partnerwrite
+[ info ] jfshopt.gxwdbg.com/mobile/Discount/partnerwrite [运行时间：0.041553s][吞吐率：24.07req/s] [内存消耗：1,686.44kb] [文件加载：51]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Discount',
+    2 => 'partnerwrite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'origin' => 'http://jfshopt.gxwdbg.com',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546441; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546441; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/Discount/myprize',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Discount->partnerwrite[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: msg_crrltn_id[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:203]
+[ error ] [8]未定义数组索引: msg_sys_sn[/Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Discount.php:205]
+---------------------------------------------------------------
+[ 2018-11-30T11:32:00+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.272648s][吞吐率：3.67req/s] [内存消耗：2,398.73kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'cookie' => 'Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543546442; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1543546442; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1543542169; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1543544948; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; osc_mobile_user_info=think%3A%7B%22uid%22%3A%221%22%2C%22username%22%3A%22s1223s%22%2C%22nickname%22%3A%22s1223s%22%2C%22group_id%22%3A%222%22%7D; PHPSESSID=b1519e3b69da8e0134ea22688b1a6093',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/discount/prize',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File

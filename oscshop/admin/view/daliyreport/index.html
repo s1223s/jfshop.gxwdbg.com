@@ -1,0 +1,644 @@
+{extend name="public:base" /}
+{block name="head"}
+		<!--jquery-weui-->
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="__PUBLIC__/js/bt/bootstrap.min.css" />
+		<link rel="stylesheet" href="__ADMIN__/ace/font-awesome/4.2.0/css/font-awesome.min.css" />
+
+	<!-- ace styles -->
+		<link rel="stylesheet" href="__ADMIN__/ace/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+		<script src="__ADMIN__/ace/js/ace-extra.min.js"></script>
+		<script src="__PUBLIC__/artDialog/artDialog.js"></script>
+		<link href="__PUBLIC__/artDialog/skins/default.css" rel="stylesheet" type="text/css" />	
+		
+		
+{/block}
+
+{block name="jquery"}
+	<script src="__PUBLIC__/js/jquery/jquery-2.0.3.min.js"></script>
+	<script src="__PUBLIC__/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+	<script src="__PUBLIC__/ztree/Chart.min.js"></script>
+	
+{/block}
+
+{block name="css"}
+<style>
+	li{
+    list-style: none;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.tile,.title {
+    background-color: #279fe0;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    transition: all 1s ease 0s;
+}
+.tile-heading,.title-heading {
+    background-color: #1e91cf;
+    color: #fff;
+    padding: 5px 8px;
+    text-transform: uppercase;
+}
+.tile-body ,.title-body{
+    background-color: #279fe0;
+    color: #ffffff;
+    line-height: 48px;
+    padding: 15px;
+}
+.tile-footer,.title-foot {
+    background-color: #3da9e3;
+    padding: 5px 8px;
+}
+.tile a ,.title a{
+    color: #ffffff;
+}
+.day{
+    margin-top: 30px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.on{font-weight: bold;}
+
+  label.iSwitch{
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border-radius: 15px;
+  background: #dcdcdc;
+  border:1px solid #dcdcdc;
+  box-shadow: 0 0 5px #dcdcdc;
+  overflow: hidden;
+  vertical-align: middle;
+
+}
+label.iSwitch input{
+  visibility: hidden;
+}
+label.iSwitch i{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  border-radius: 100%;
+  background: #fff;
+}
+label.iSwitch i::before{
+  content: "";/*On*/
+  display: none;
+  width: 200%;
+  height: 100%;
+  border-radius: 25%;
+  background:#1e91cf;
+}
+label.iSwitch i::after{
+  content: "";/*Off*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background: #fff;
+}
+label.iSwitch input:checked + i{
+  transform:translateX(100%);
+  -webkit-transform:translateX(100%);
+}
+label.iSwitch input:checked + i:before{
+  display: inline-block;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+} 
+
+</style>		
+{/block}
+{block name="content"}
+		<link href="__PUBLIC__/jquery-weui/dist/lib/weui.min.css" type="text/css" rel="Stylesheet" />
+		<link href="__PUBLIC__/jquery-weui/dist/css/jquery-weui.min.css" type="text/css" rel="Stylesheet" />
+		<script src="__PUBLIC__/jquery-weui/dist/js/jquery-weui.min.js"></script>
+	
+	<div class="container-fluid">
+			<div class="row" id="tab">
+				<div class="col-xs-12">
+					<div class="row" id="tile">
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<div class="tile">
+								<div class="tile-heading">今日交易量
+									<span class="pull-right"></span>
+								</div>
+								<div class="tile-body">
+									<!--<i class="glyphicon glyphicon-credit-card"></i>-->
+									<i class="fa fa-credit-card"></i>
+									<h2 class="pull-right" id="sum">{$sum}元</h2>
+								</div>
+								<div class="tile-footer">
+									<a href="">显示详细...</a>
+								</div>
+							</div>
+						</div> 
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<div class="tile" id="title2">
+								<div class="tile-heading">本周交易量
+									<span class="pull-right">总1385笔</span>
+								</div>
+								<div class="tile-body">
+									<!--<i class="glyphicon glyphicon-credit-card"></i>-->
+									<i class="fa fa-credit-card"></i>
+									<h2 class="pull-right">0</h2>
+								</div>
+								<div class="tile-footer">
+									<a href="">显示详细...</a>
+								</div>
+							</div>
+						</div>  
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<div class="tile">
+								<div class="tile-heading">本月交易量
+									<span class="pull-right">总15598笔</span>
+								</div>
+								<div class="tile-body">
+									<!--<i class="glyphicon glyphicon-credit-card"></i>-->
+									<i class="fa fa-credit-card"></i>
+									<h2 class="pull-right">0</h2>
+								</div>
+								<div class="tile-footer">
+									<a href="">显示详细...</a>
+								</div>
+							</div>
+						</div> 
+						<div class="col-lg-3 col-md-3 col-sm-6">
+							<div class="title">
+								<div class="title-heading">总额度
+									<span class="pull-right"></span>
+								</div>
+								<div class="title-body">
+									<!--<i class="glyphicon glyphicon-credit-card"></i>-->
+									<i class="fa fa-credit-card"></i>
+									<h2 class="pull-right" id="quota">{$quota}元</h2>
+								</div>
+								<div class="title-foot">
+									<a href="">显示详细...</a><!---->
+									
+									<!--Switch 开关 S-->
+									<input hidden="hidden" id="btn" name="btn1" type="radio" value="{$btn}" checked="checked" />
+	  								<label class="iSwitch">
+									    <input class="Switch" type="checkbox" id="button1" name="button1">
+									    <i></i>
+									</label>
+	  								<!--Switch 开关 S-->
+	  								
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--S-part-1日交易量-->
+			<div class="day">
+					<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-12 col-sx-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									站点行为
+									<a style="font-size: 14px" href="" class="pull-right">更多..</a>
+								</h3>
+								
+							</div>
+							
+							<ul class="list-group">
+								<li class="list-group-item">火车东站  <span style="float: right;">{$z[17]}元</span></li>
+								<li class="list-group-item">百花岭站  <span style="float: right;">{$z[2]}元</span></li>
+								<li class="list-group-item">琅东站  <span style="float: right;">{$z[14]}元</span></li>
+								<li class="list-group-item">凤岭站   <span style="float: right;">{$z[18]}元</span></li>
+								<li class="list-group-item">东盟商务区站  <span style="float: right;">{$z[15]}元</span></li>
+								<li class="list-group-item">万象城站   <span style="float: right;">{$z[10]}元</span></li>
+								<li class="list-group-item">会展站宁家  <span style="float: right;">{$z[12]}元</span></li>
+								<li class="list-group-item">会展站走廊  <span style="float: right;">{$z[13]}元</span></li>
+								<li class="list-group-item">金湖站   <span style="float: right;">{$z[11]}元</span></li>
+								<li class="list-group-item">南湖站   <span style="float: right;">{$z[3]}元</span></li>
+								<li class="list-group-item">麻村站   <span style="float: right;">{$z[0]}元</span></li>
+								<li class="list-group-item">民族广场站   <span style="float: right;">{$z[1]}元</span></li>
+								<li class="list-group-item">新民路站    <span style="float: right;">{$z[19]}元</span></li>
+								<li class="list-group-item">火车站1   <span style="float: right;">{$z[4]}元</span></li>
+								<li class="list-group-item">火车站2  <span style="float: right;">{$z[5]}元</span></li>
+								<li class="list-group-item">白苍岭站   <span style="float: right;">{$z[6]}元</span></li>
+								<li class="list-group-item">广西大学站  <span style="float: right;">{$z[8]}元</span></li>
+								<li class="list-group-item">民族大学站   <span style="float: right;">{$z[7]}元</span></li>
+								<li class="list-group-item">清川站    <span style="float: right;">{$z[9]}元</span></li>
+								<li class="list-group-item">鹏飞路站  <span style="float: right;">{$z[16]}元</span></li>
+							</ul>
+							
+						</div> 
+					</div>
+					
+					<div class="col-lg-8 col-md-12 col-sm-12 col-sx-12">
+						<div class="row">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">日交易量统计</h3>
+								</div>
+								<div class="table-responsive">
+									<table class="table" id="table">
+										<canvas width="1000" height="800" id="cvs"></canvas>
+									</table>
+								</div>
+							</div> 
+						</div>
+					</div> 
+				</div>
+			</div>
+			
+			<!--<!-E-part-1日交易量-->
+			
+			<!--<!-S-part-2周交易量-->
+			<div class="day" style="display:none;">
+					<div class="row"><!-- style="display:none;" -->
+					<div class="col-lg-4 col-md-12 col-sm-12 col-sx-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									站点行为
+									<a style="font-size: 14px" href="" class="pull-right">更多..</a>
+								</h3>
+								
+							</div>
+							
+							<ul class="list-group">
+								<li class="list-group-item">1</li>
+								<li class="list-group-item">2</li>
+								<li class="list-group-item">3</li>
+								<li class="list-group-item">4</li>
+								<li class="list-group-item">5</li>
+								<li class="list-group-item">6</li>
+								<li class="list-group-item">7</li>
+								<li class="list-group-item">8</li>
+							</ul>
+						</div> 
+					</div>
+					
+					<div class="col-lg-8 col-md-12 col-sm-12 col-sx-12">
+						<div class="row">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">周交易量统计</h3>
+								</div>
+								<div class="table-responsive">
+									<table class="table" id="table">
+										<canvas width="5000" height="1800" id="ctx"></canvas>
+									</table>
+								</div>
+							</div> 
+						</div>
+					</div> 
+				</div>
+			</div>
+			
+			
+			<!--S-part-3月交易量-->
+		<div class="day" style="display:none;">
+			<div class="row"><!-- style="display:none;" -->
+				<div class="col-lg-4 col-md-12 col-sm-12 col-sx-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								站点行为
+								<a style="font-size: 14px" href="" class="pull-right">更多..</a>
+							</h3>
+							
+						</div>
+						
+						<ul class="list-group">
+							<li class="list-group-item">1</li>
+							<li class="list-group-item">2</li>
+							<li class="list-group-item">3</li>
+							<li class="list-group-item">4</li>
+							<li class="list-group-item">5</li>
+							<li class="list-group-item">6</li>
+							<li class="list-group-item">7</li>
+							<li class="list-group-item">8</li>
+						</ul>
+					</div> 
+				</div>
+				
+				<div class="col-lg-8 col-md-12 col-sm-12 col-sx-12">
+					<div class="row">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">月交易量统计</h3>
+							</div>
+							<div class="table-responsive">
+								<table class="table" id="table">
+									<canvas width="1000" height="1000" id="cns"></canvas>
+								</table>
+							</div>
+						</div> 
+					</div>
+				</div> 
+			</div>
+		</div>
+			
+	</div>
+{/block}
+
+{block name="script"}
+		
+{/block}
+
+{block name="javascript"}
+<script>
+    var lis = document.querySelectorAll('#tab .tile');
+    console.log(lis.length)
+	for(var i=0; i<lis.length;i++){
+
+		(function(_i){
+			lis[_i].onclick = function(){
+
+//				console.log('你点中了第几个:' + _i);
+
+				for(var p=0; p<lis.length;p++){ 
+					document.getElementsByClassName('day')[p].style.display = 'none'; 
+				}
+				document.getElementsByClassName('day')[_i].style.cursor='pointer';
+				document.getElementsByClassName('day')[_i].style.display = 'block';
+
+				for(var p=0; p<lis.length;p++){ 
+					lis[p].className = '';
+				}
+				 lis[_i].className = 'on';
+
+			}		
+
+		})(i) ;
+		
+	}
+	
+	//
+	//柱状图
+	//柱状图
+	//日交易量
+var ctx  = document.getElementById("cvs").getContext('2d');  
+
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["火车东站", "百花岭站", "琅东站", "风岭站", "东盟商务区站", "万象城站","会展站宁家","会展站走廊","金湖站","南湖站","麻村站","民族广场站","新民路站","火车站1","火车站2","白苍岭站","广西大学站","民族大学站","清川站","鹏飞路站" ],//x轴数据
+        datasets: [{
+            label: '今日交易量',
+            data: [{$z[17]}, {$z[2]}, {$z[14]}, {$z[18]}, {$z[15]},{$z[10]},{$z[12]},{$z[13]},{$z[11]},{$z[3]},{$z[0]},{$z[1]},{$z[19]},{$z[4]},{$z[5]},{$z[6]},{$z[8]},{$z[7]},{$z[9]},{$z[16]}],//y轴数据
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+
+//周交易量
+var cvs  = document.getElementById("ctx").getContext('2d');  
+
+var myChart2 = new Chart(cvs, {
+    type: 'bar',
+    data: {
+        labels: ["火车东站", "百花岭站", "琅东站", "风岭站", "东盟商务区站", "万象城站","会展站宁家","会展站走廊","金湖站","南湖站","麻村站","民族广场站","新民路站","火车站1","火车站2","白苍岭站","广西大学站","民族大学站","清川站","鹏飞路站" ],//x轴数据
+        datasets: [{
+            label: '本周交易量',
+            data: [612, 319, 930, 1095, 1128,1060,968,898,1810,902,1228,1945,1061,1550,2180,3281,488,1005,2100,1095],//y轴数据
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+						 'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+//月交易量
+var cns  = document.getElementById("cns").getContext('2d');  
+
+var myChart3 = new Chart(cns, {
+    type: 'bar',
+    data: {
+        labels: ["火车东站", "百花岭站", "琅东站", "风岭站", "东盟商务区站", "万象城站","会展站宁家","会展站走廊","金湖站","南湖站","麻村站","民族广场站","新民路站","火车站1","火车站2","白苍岭站","广西大学站","民族大学站","清川站","鹏飞路站" ],//x轴数据
+        datasets: [{
+            label: '本月交易量',
+            data: [92392112345, 32882112345, 23762112345, 56710912311, 71311012128,43421220560,34231113268,52520312198,51622114810,23421010402,691312028,634016345,702317461,56135515012,71241118012,60281198811,42011045511,27032321012,45632178611,63123456789],//y轴数据
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+				'rgba(75, 192, 192, 0.2)',
+                'rgba(255, 99, 132, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+				'rgba(255,69,132,1)',
+                'rgba(255, 206, 86, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+
+//
+window.onload=function(){
+	var Oh2=document.getElementById("quota");
+	//alert(num)
+	if(parseInt({$quota})<=parseInt(5000)){
+		
+		Oh2.style.color="red";
+	}else{
+		Oh2.style.color="#fff";
+	}
+	
+}
+		// switch 开关js控制点
+		
+		$(function () { $("#button1").bind("click", function () {
+	 		// console.log( $("#button1").val() );
+			  	if(parseInt({$quota})<=parseInt(5000)||$("#btn").val()=="off"){
+			   		$("#btn").val("on");
+			    	console.log("开关S当前状态:"+$("#btn").val());
+			    }else{
+			      $("#btn").val("off");
+			       console.log("开关S当前状态:"+$("#btn").val());
+			    } 
+	    	});
+		});
+
+
+$('.Switch').bind('click', function() {
+//		alert(1);
+		var btn=$('#btn').val();
+		//alert(btn);
+		$.post(
+			"{:url('daliyreport/switch')}",
+			{btn:btn},
+				function(d){
+					// console.log(d)
+				if(d){					
+					if(d.error){
+						 //alert('已关闭充值');
+						$.toast(d.error,"forbidden");	
+					}else if(d.success){
+						 //alert('已开启充值');
+						$.toast(d.success);
+					}					
+				}
+			}
+		);
+	}); 
+</script>	
+{/block}
