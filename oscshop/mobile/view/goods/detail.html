@@ -319,7 +319,7 @@ $(function(){
 				         var id=json['goods_option_id'];
 				         
 				            var element = $('#option-'+id);
-				
+									alert(element);
 				            if (element.parent().hasClass('box-check')) {
 				              element.parent().addClass('text-error').after('<div class="text-danger">' + json.error + '</div>');
 				            } else {

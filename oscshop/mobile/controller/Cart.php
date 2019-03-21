@@ -87,7 +87,7 @@ class Cart extends MobileBase{
 			}
 			$this->assign('transport',$transport);	
 		}
-
+		//var_dump($goods);
 		$this->assign('goods',$goods);		
 		$this->assign('total_price',$total_all_price);		
 		$this->assign('weight',$weight);		
@@ -433,7 +433,7 @@ class Cart extends MobileBase{
 		$json_data = $this->curl_get($dx);
 		$data = json_decode($json_data);
 		$data = $this->object_array($data);
-		print_r($data);
+//		print_r($data);
 		$acceptid = $data['data']['acceptid'];
 		header("Content-type: application/json");
 		exit(json_encode($acceptid));

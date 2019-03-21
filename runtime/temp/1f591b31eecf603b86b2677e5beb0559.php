@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:38:"./oscshop/mobile/view/index/index.html";i:1543545364;s:38:"./oscshop/mobile/view/public/base.html";i:1516611140;s:44:"./oscshop/mobile/view/public/header_top.html";i:1539075834;s:44:"./oscshop/mobile/view/public/footer-nav.html";i:1512628884;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:38:"./oscshop/mobile/view/index/index.html";i:1550542459;s:38:"./oscshop/mobile/view/public/base.html";i:1516611140;s:44:"./oscshop/mobile/view/public/header_top.html";i:1539075834;s:40:"./oscshop/mobile/view/public/search.html";i:1512545342;s:44:"./oscshop/mobile/view/public/footer-nav.html";i:1512628884;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 
@@ -12,20 +12,12 @@
 		<meta name="format-detection" content="telephone=no"> 
 		<script src="__PUBLIC__/js/jquery/jquery-1.10.2.min.js"></script>
 		 
-	<link href="__PUBLIC__/view_res/mobile/css/swiper.min.css" type="text/css" rel="Stylesheet" />
-	<link rel="shortcut icon" href=" /favicon.ico" /> 
-	<link rel="stylesheet" href="__PUBLIC__/view_res/mobile/css/home_index.css">
+	<link rel="stylesheet" href="__PUBLIC__/view_res/mobile/css/header-home.css">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="__PUBLIC__/view_res/mobile/css/reset.css">
 	<script src="__PUBLIC__/artTemplate/template.js"></script>
 	<script src="__PUBLIC__/view_res/mobile/load_list.js"></script>
 	<script src="__PUBLIC__/view_res/mobile/index.js"></script>
-<script>
-	var pixclPatio = 1 / window.devicePixelRatio;
-	document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixclPatio+',minimum-scale='+pixclPatio+',maximum-scale='+pixclPatio+',user-scalable=no" />');
-			
-	var html = document.getElementsByTagName('html')[0];
-	var pageWidth = html.getBoundingClientRect().width;
-	html.style.fontSize = pageWidth /15 + 'px';
-</script>
 
 		<script>
 			var _hmt = _hmt || [];
@@ -69,161 +61,221 @@ function searchdo(form) {
 }	
 </script>
 
+	<div style="text-align: center;padding: .5rem 0 0 0;">
+	<img src="__PUBLIC__/view_res/mobile/images/logo1.png" style="width: 150px;height: 40px;"></div>
+<form class="search-w-box" onsubmit='searchdo(this);return false;'>
+	<input type="search" name="search" id="searchBox" targ="<?php echo url('search/index'); ?>" value="<?php echo input('param.search'); ?>" class="search-w-input" placeholder="搜一搜，找到你想要的" />
+</form>
+<script>
+	function searchdo(form) {
+		var search = $('input[type=search]', form);
+		if (search.val() === '')
+			return;
+		var url = search.attr('targ');
+		var query = $('.search-w-box').find('input,select').serialize();
+		query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g, '');
+		query = query.replace(/^&/g, '');
+		if (url.indexOf('?') > 0) {
+			url += '&' + query;
+		} else {
+			url += '?' + query;
+		}
+		window.location.href = url;
+	}
+</script>
+
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		direction: "horizontal",
+		/*横向滑动*/
+		loop: true,
+		/*形成环路（即：可以从最后一张图跳转到第一张图*/
+		pagination: ".swiper-pagination",
+		/*分页器*/
+		prevButton: ".swiper-button-prev",
+		/*前进按钮*/
+		nextButton: ".swiper-button-next",
+		/*后退按钮*/
+		autoplay: 3000 /*每隔3秒自动播放*/
+	});
+</script>
  
-<div id="main">
-	<div class="swiper-container" id="banner">
-	    <div class="swiper-wrapper">
-	        <div class="swiper-slide"><a href=""><img src="/public/static/view_res/mobile/images/banner-1.jpg" alt=""></a></div>
-	        <div class="swiper-slide"><a href=""><img src="/public/static/view_res/mobile/images/banner-2.jpg" alt=""></a></div>
-	        <div class="swiper-slide"><a href=""><img src="/public/static/view_res/mobile/images/banner-3.jpg" alt=""></a></div>
-	    </div>
-	    <div class="focus_btn"></div>
-	</div>
-	<nav id="quick_nav">
-		<a href="http://jfshop.gxwdbg.com/mobile/category/index"><img src="/public/static/view_res/mobile/images/new_index/icon_nav_1.png" alt=""><span>热销商品</span></a>
-		<a href="http://jfshop.gxwdbg.com/mobile/merchant/index/id/6"><img src="/public/static/view_res/mobile/images/new_index/icon_nav_2.png" alt=""><span>必吃美食</span></a>
-		<a href="http://jfshop.gxwdbg.com/mobile/merchant/index/id/8"><img src="/public/static/view_res/mobile/images/new_index/icon_nav_3.png" alt=""><span>影院大片</span></a>
-		<a href="http://jfshop.gxwdbg.com/mobile/merchant/index/id/7"><img src="/public/static/view_res/mobile/images/new_index/icon_nav_4.png" alt=""><span>优惠券</span></a>
-		<a href="http://jfshop.gxwdbg.com/mobile/points/index"><img src="/public/static/view_res/mobile/images/new_index/icon_nav_5.png" alt=""><span>积分兑换</span></a>
-	</nav>
-	<div id="sexkill">
-		<div class="sildeLeft">
-			<a href="http://jfshop.gxwdbg.com/mobile/discount/index">
-				<h3 class="limit_title"></h3>
-				<span>限时限量 先到先得</span>
-				<img src="/public/static/view_res/mobile/images/new_index/seckill_show.png" alt="" class="sekill_F">
-			</a>
-		</div>
-		<div class="sildeRight">
-			<div class="RightT">
-				<a href="">
-					<h3></h3>
-					<span>拼团优惠 惊喜连连</span>
-					<img src="/public/static/view_res/mobile/images/new_index/seckill_show2.png" alt="" class="sekill_S">
-				</a>
-			</div>
-			<div class="RightB">
-				<a href="/mobile/discount/prize">
-					<h3></h3>
-					<span>低价狂欢 砍价不停</span>
-					<img src="/public/static/view_res/mobile/images/new_index/seckill_show3.png" alt="" class="sekill_T">
-				</a>
+	<div id="ontouch">
+	<!-- header S -->
+		<div class="common_header">
+			<header class="header">
+				<div class="header_new_bar">
+					<div id="msShortUser">
+						<?php if(in_wechat()): ?>
+	        <a class="headwrap"><img src="<?php echo $userinfo['userpic']; ?>/0"/></a>	             
+        <?php else: ?>
+	        <a class="headwrap">
+	        	<?php if(!empty($userinfo['userpic'])): ?>
+	        	<img src="<?php echo $userinfo['userpic']; ?>"/>
+	        	<?php else: ?>
+	        	<img src="__RES__/mobile/images/icon/iconfont-iconname_2x.png"/>
+	        	<?php endif; ?>
+	        </a>  
+        <?php endif; ?>
+					</div>
+					<div class="head_new_title"></div>
+					<div id="msShortType"></div>
+				</div>
+			</header>
+			<div class="headr_search">
+				<form action="" class="header_search_form">
+					<div class="header_search_box">
+						<div class="header_search_input">
+							<input type="text" maxlength="20" name="keyword" autocomplete="off" placeholder="大家都在搜：美食电影K歌">
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
-	</div>
-	<div id="new_product">
-		<a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/81">
-			<h3></h3>
-			<img src="/public/static/view_res/mobile/images/new_index/new_pro_banner.png" alt="" class="new_pro">
-		</a>
-	</div>
-	<div id="hot_season">
-		<a href="">
-			<h3></h3>
-			<img src="/public/static/view_res/mobile/images/new_index/season_banner.png" alt="" class="hot_son">
-		</a>
-	</div>
-	<div id="recommrnd">
-		<h3></h3>
-		<div id="list_pro"> 
-				<ul id="recommond_list">
-					<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/54">
-							<img src="/public/uploads/cache/images/osc1/28901522655608_.pic_hd-200x200.jpg" alt="">
-							<p>南宁万达影城双人观影券套餐(有效期至18年10月31日）</p>
-							<i>&yen;</i>
-							<span class="price">78.8</span>
-							<span class="view">324人付款</span>
-						</a></li>
-					<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/51">
-							<img src="/public/uploads/cache/images/osc1/28901522655608_.pic_hd-200x200.jpg" alt="">
-							<p>南宁万达影城单人人观影券套餐(有效期至18年10月31日）</p>
-							<i>&yen;</i>
-							<span class="price">40</span>
-							<span class="view">130人付款</span>
-						</a></li>
-					<!-- <li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/49">
-							<img src="/public/uploads/cache/images/osc1/1-200x200.jpg" alt="">
-							<p>佰迪乐2小时厢费券</p>
-							<i>&yen;</i>
-							<span class="price">15</span>
-							<span class="view">267人付款</span>
-						</a></li> -->
-					<!-- <li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/48">
-							<img src="/public/uploads/cache/images/osc1/3.1-200x200.jpg" alt="">
-							<p>佰迪乐38元罗汉果茶券</p>
-							<i>&yen;</i>
-							<span class="price">15</span>
-							<span class="view">128人付款</span>
-						</a></li> -->
-					<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/47">
-							<img src="/public/uploads/cache/images/osc1/2.1-200x200.jpg" alt="">
-							<p>佰迪乐18元小吃券（2份）</p>
-							<i>&yen;</i>
-							<span class="price">15</span>
-							<span class="view">96人付款</span>
-						</a></li>
-					<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/81">
-							<img src="/public/uploads/cache/images/osc1/xinyao/1/5b77bd8cN26155f8f-200x200.jpg" alt="">
-							<p>鑫瑶果神原汁山葡萄酒甜型酒女士酒礼盒装50ml*12瓶买就送茶儿香</p>
-							<i>&yen;</i>
-							<span class="price">198</span>
-							<span class="view">190人付款</span>
-						</a></li>
+	
+	<!-- 二级导航 -->
+		<div class="head_tab_bar" id="sub_Nav">
+			<div class="tab_bar_inner swiper-container" id="tab_scrollbar">
+				<ul class="clearfix swiper-wrapper">
+					<li class="swiper-slide" style="width: 70px;"><a href=""><span class="cur">今日推荐</span></a></li>
+					<li class="swiper-slide" style="width: 70px;"><a href=""><span>秒杀特价</span></a></li>
+					<li class="swiper-slide" style="width: 70px;"><a href=""><span>精品商家</span></a></li>
+				</ul>
+			</div>
+			<div id="tab_bar_more" class="tab_bar_more">
+				<div class="tab_btn_more">
+					<i class="icon_arrow_down"></i>
+					<i class="icon_arrow_up"></i>
+				</div>
+				<div class="channel_category_wrap"></div>
+			</div>
+		</div>
+	
+	<!-- 广告轮播 -->
+		<div class="new_slide_content">
+			<div class="news_slide_wrap">
+				<ul class="news_slide_list">
+					<li><a href="#"><img src="" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
 
-								<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/105">
-									<img src="/public/uploads/cache/images/osc1/yinyuehui/0001-200x200.png" alt="">
-									<p>《猫和老鼠的贝多芬》古典音乐启蒙亲子钢琴快乐视听音乐会</p>
-									<i>&yen;</i>
-									<span class="price">80</span>
-									<span class="view">0人付款</span>
-								</a></li>
-							<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/107">
-									<img src="/public/uploads/cache/images/osc1/yinyuehui/0001-200x200.png" alt="">
-									<p>《猫和老鼠的贝多芬》古典音乐启蒙亲子钢琴快乐视听音乐会</p>
-									<i>&yen;</i>
-									<span class="price">128</span>
-									<span class="view">0人付款</span>
-								</a></li>
-								<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/108">
-									<img src="/public/uploads/cache/images/osc1/yinyuehui/00002-200x200.png" alt="">
-									<p>Anime Piano Live 2018经典动漫钢琴曲极致纯音演奏会</p>
-									<i>&yen;</i>
-									<span class="price">80</span>
-									<span class="view">0人付款</span>
-								</a></li>
-							<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/109">
-									<img src="/public/uploads/cache/images/osc1/yinyuehui/00002-200x200.png" alt="">
-									<p>Anime Piano Live 2018经典动漫钢琴曲极致纯音演奏会</p>
-									<i>&yen;</i>
-									<span class="price">128</span>
-									<span class="view">0人付款</span>
-								</a></li>
+	<!-- quick S -->
+		<div class="floor box_wrapper">
+			<div class="quick_nav_list">
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_00.png" alt="美食"><span>美食</span></a>
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_01.png" alt="电影"><span>电影</span></a>
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_02.png" alt="乐园"><span>乐园</span></a>
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_03.png" alt="酒店"><span>酒店</span></a>
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_04.png" alt="音乐会"><span>音乐会</span></a>
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_05.png" alt="船票" style="width: 4rem"><span>船票</span></a>
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_06.png" alt="服装"><span>服装</span></a>
+				<a href="" class="box"><img src="/public/static/view_res/mobile/images/quick_nav_07.png" alt="酒水"><span>酒水</span></a>
+			</div>
+		</div>
 
-							<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/111">
-									<img src="/public/uploads/cache/images/osc1/meishi/coolkie03-200x200.jpg" alt="">
-									<p>仅39.9元抢萨贝尔单人牛排套餐~西冷、沙朗、T骨3选1+自调饮品1杯~可叠加~地铁直达</p>
-									<i>&yen;</i>
-									<span class="price">39.9</span>
-									<span class="view">0人付款</span>
-								</a></li>
-								<li><a href="http://jfshop.gxwdbg.com/mobile/goods/detail/id/119">
-									<img src="/public/uploads/cache/images/osc4/1-200x200.jpg" alt="">
-									<p>¥39.9抢嘻游记100元代金券~食肉兽们的打卡天堂～定位万象城6楼    </p>
-									<i>&yen;</i>
-									<span class="price">39.9</span>
-									<span class="view">0人付款</span>
-								</a></li>
-
-						
+	<!-- sec_kill S -->
+		<section class="sec_kill_floor">
+			<div class="sec_title_wrap">
+				<div class="sec_kill_title">
+					<img src="/public/static/view_res/mobile/images/sec_kill_title.png" alt="">
+				</div>
+				<div class="sec_kill_time">
+					<span class="clock">距离本场</span>
+					<span class="margin_left">还剩</span>
+					<div id="sec_limit_time">
+						<span>00</span>:
+						<span>00</span>:
+						<span>00</span>
+						<?php if(is_array($goods) || $goods instanceof \think\Collection || $goods instanceof \think\Paginator): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
+						<a href="/mobile/goods/detail/id/<?php echo $v['0']['goods_id']; ?>" class="sku_item">
+							<img src="/public/uploads/<?php echo $v['0']['image']; ?>" alt="">
+							<div class="seckill_meta">
+								
+								
+								<h4><?php echo $v['0']['name']; ?></h4>
+								<p class="seckill_price">
+									<span>秒杀价</span>
+									<span>&yen;<strong><?php echo $v['discount_price']; ?></strong></span>
+									<del>&yen;<?php echo $v['0']['originalprice']; ?></del>
+								</p>
 
 								
-				</ul> 
-
-
+					         
+					            	
+					            	</dl>
+			            		
+								<p class="seckill_btn">
+									<button class="seckill_buy">马上抢</button>
+								</p>
+								<h6>库存:<?php echo $v['0']['quantity']; ?>份</h6>
+							
+								
+							</div>
+						</a>
+						<?php endforeach; endif; else: echo "" ;endif; ?>
+					</div>
+				</div>
 			</div>
-	</div>
-</div>
+			<div id="seckillSlider" class="sec_kill_slider">
+				<ul class="sec_kill_list"></ul>
+			</div>
+		</section>
 
+	<!-- channel_shop S-->
+		<section class="channel_shop_wrap">
+			<div class="channel_shop">
+				<div class="channel_shop_title">
+					<img src="/public/static/view_res/mobile/images/channel_shop_title.png" alt="">
+				</div>
+				<div class="business_one">
+					<a href="" class="business_one_wrap"></a>
+					<div class="business_one_detail">
+						<h2>南宁万达影城</h2>
+						<p><span>低至<em class="blod">38.8</em></span><span>优惠影券不限量</span></p>	
+					</div>
+				</div>
+				<div class="business_two">
+					<a href="" class="business_two_wrap"></a>
+					<div class="business_two_detail">
+						<h2>广西音乐厅</h2>
+						<p><span class="blod">全网最低价</span><span>感受来自音乐的陶冶</span></p>
+					</div>
+				</div>
+				<div class="business_three">
+					<a href="" class="business_three_wrap"></a>
+					<div class="business_three_detail">
+						<h2>广西北港邮轮观光</h2>
+						<p><span class="blod">一票多娱</span><span>一场碧海蓝天的旅行</span></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<!-- 为您推荐 S -->
+		<section class="recommend">
+			<div class="rec_title_wrap">
+				<img src="/public/static/view_res/mobile/images/rec_title_0.webp" alt="">
+			</div>
+			<section class="rec_content_wrap" id="goods_list">
+				
+			</section>
+			<div id="list-loading" style="display: none;"><img src="__PUBLIC__/view_res/mobile/spinner-g-60.png" width="30"></div>
+		</section>
+		<script id="list" type="text/html">
+			<@each list as value i@>
+				<div class="re_content_item">
+					<a href="/mobile/goods/detail/id/<@value.goods_id@>">
+						<img src="/<@value.image@>" />
+					</a>
+					<p><@value.name@></p>
+					<span class="price">&yen;<@value.price@></span>
+					<!-- <span class="view">400人付款</span> -->
+				</div>
+			<@/each@>
+		</script>
+		
+	</div>
  
 	<footer id="footer">
 <div class="bottom_nav"><a class="nav_index <?php if(isset($flag) AND ($flag == 'index')): ?> hover<?php endif; ?>" href="<?php echo url('/mobile'); ?>"><i></i>购物</a>
@@ -245,21 +297,12 @@ function searchdo(form) {
 	</script>
 
 	
-	<script src="__PUBLIC__/view_res/mobile/swiper.min.js"></script>
 	<script>
-	var swiper = new Swiper('#banner', {
-		direction: "horizontal",
-		/*横向滑动*/
-		loop: true,
-		/*形成环路（即：可以从最后一张图跳转到第一张图*/
-		pagination: ".focus_btn",
-		/*分页器*/
-		/*后退按钮*/
-		autoplay: 3000 /*每隔3秒自动播放*/
-	});
-</script>
-
-<!--  -->
+		$(function(){
+			scroll_load('mobile/index/ajax_goods_list','list','goods_list');
+		});//商品加载
+		// 二级导航
+	</script>
 
 
 </html>

@@ -1542,6 +1542,7 @@ class Request
      */
     public function cache($key, $expire = null, $except = [], $tag = null)
     {
+        
         if (!is_array($except)) {
             $tag    = $except;
             $except = [];
@@ -1556,6 +1557,7 @@ class Request
             }
             if ($key instanceof \Closure) {
                 $key = call_user_func_array($key, [$this]);
+               
             } elseif (true === $key) {
                 foreach ($except as $rule) {
                     if (0 === stripos($this->url(), $rule)) {

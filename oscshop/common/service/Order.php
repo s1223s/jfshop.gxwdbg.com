@@ -120,7 +120,10 @@ class Order{
 			$map['Order.order_status_id']=['eq',$param['status']];	
 			$query['status']=urlencode($param['status']);
 		}
-		
+		if (isset($param['merchant_id'])) {
+			$map['Order.merchant_id']=['eq',$param['merchant_id']];	
+			$query['merchant_id']=urlencode($param['status']);
+		}
 		if($uid){
 			$map['Member.uid']=['eq',$uid];	
 		}
@@ -547,25 +550,61 @@ class Order{
 		
 	
 		$member=Db::name('member')->where('uid',$order_info['uid'])->find();
+		//获取利润
+		$merchant = Db::name('goods')->where('goods_id',$goods_id )->find();
+		$profit = $merchant ['profit'];
+	
 		//存在上级代理商,本系统代理商只做一级分红
-		if($member['pid']!=0){
+		if($member['is_agent']!=0){
 			
 			$agent_info=Db::name('agent')->where('uid',$member['pid'])->find();
-			
+			$usagent_info=Db::name('agent')->where('uid',$order_info['uid'])->find();
+			//file_put_contents($fi,$usagent_info,FILE_APPEND);	
 			//代理商是状态是开启的
-			if($agent_info['status']==1){
-						
-				Db::name('agent')->where('agent_id',$agent_info['agent_id'])->setInc('total_bonus',$order_info['total']*$agent_info['return_percent']);	
-				Db::name('agent')->where('agent_id',$agent_info['agent_id'])->setInc('no_cash',$order_info['total']*$agent_info['return_percent']);	
+			if($usagent_info['status']==1){
+				//本人50%利润
+				Db::name('agent')->where('agent_id',$usagent_info['agent_id'])->setInc('total_bonus',$profit*0.5);
+				Db::name('agent')->where('agent_id',$usagent_info['agent_id'])->setInc('no_cash',$profit*0.5);	
+				//分润1
+				$profit1 = $profit*0.5;
+
+				//$profit1为总利润
+				Db::name('member')->where('uid',$order_info['uid'])->setInc('total_bonus',$profit1);
+
+				//存在上层代理
+				if ($member['pid']!=0) {
+				//上层35%
+				Db::name('agent')->where('agent_id',$agent_info['agent_id'])->setInc('total_bonus',$profit*0.35);	
+				Db::name('agent')->where('agent_id',$agent_info['agent_id'])->setInc('no_cash',$profit*0.35);
+				$profit2 = $profit*0.35;
+				//$profit2为总利润
+				Db::name('member')->where('uid',$member['pid'])->setInc('total_bonus',$profit2);
+
+					//获取上层代理的用户id
+					$topmember = Db::name('member')->where('uid',$member['pid'])->find();
+
+					//存在顶层代理
+					if ($topmember['pid']!=0) {
+						//file_put_contents($fi,$topmember,FILE_APPEND);
+						$topagent_info=Db::name('agent')->where('uid',$topmember['pid'])->find();
+						Db::name('agent')->where('agent_id',$topagent_info['agent_id'])->setInc('total_bonus',$profit*0.15);	
+						Db::name('agent')->where('agent_id',$topagent_info['agent_id'])->setInc('no_cash',$profit*0.15);
+						$profit3 = $profit*0.15;
+						Db::name('member')->where('uid',$topmember['uid'])->setInc('total_bonus',$profit3);
+					}
+				}
+
+
+
+					
 				
-				Db::name('member')->where('uid',$member['pid'])->setInc('total_bonus',$order_info['total']*$agent_info['return_percent']);	
-				
+
 				$bonus['uid']=$member['pid'];
 				$bonus['agent_id']=$agent_info['agent_id'];
 				$bonus['order_id']=$order_info['order_id'];
 				$bonus['order_num_alias']=$order_info['order_num_alias'];
 				$bonus['buyer_id']=$order_info['uid'];
-				$bonus['bonus']=$order_info['total']*$agent_info['return_percent'];
+				$bonus['bonus']=$profit*0.35;
 				$bonus['return_percent']=$agent_info['return_percent'];
 				$bonus['order_total']=$order_info['total'];
 				$bonus['pay_time']=$order['pay_time'];

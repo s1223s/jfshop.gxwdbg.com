@@ -57,7 +57,7 @@
 <div class="uc-section" onclick="location.href = '{:url("points/index")}'">
     <i class='credit'></i><b>您有 {$userinfo.points-$userinfo.cash_points} 积分可兑换</b>积分兑换
 </div>	
-<!--	{if condition="$userinfo['is_agent'] EQ 1"}	
+	{if condition="$userinfo['is_agent'] EQ 1"}	
 	        <div class="uc-section" onclick="location.href = '{:url("Agent/sub_agent")}'">
 	            <i class='hezuo'></i><b>总收益： &yen; {$userinfo.total_bonus|0} </b>我的代理
 	        </div>
@@ -73,11 +73,11 @@
 	        <i class='hezuo'></i><b>加入代理，共同成长</b>成为代理
 	    </div>
 	{/if}
-	-->
+	
 </div>	
 
     <div class="weui_btn_area mui-content-padded">
-<!--	<a class="weui_btn weui_btn_primary" id="drop-out-btn" style="background-color:#e4393c">退出登录</a>-->
+	<a class="weui_btn weui_btn_primary" id="drop-out-btn" style="background-color:#e4393c">退出登录</a>
 
 {if condition="in_wechat()"}{/if}
 
@@ -121,6 +121,6 @@ $('.uc-sign').bind('click', function() {
 	}); 
 
 </script>
-<!-- <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>  -->
-<!-- <script data-main="__RES__/mobile/js/shop_uchome.js" src="__RES__/mobile/js/require.min.js"></script> -->
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script> 
+<script data-main="__RES__/mobile/js/shop_uchome.js" src="__RES__/mobile/js/require.min.js"></script> 
 {/block}

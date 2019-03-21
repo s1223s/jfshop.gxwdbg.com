@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:37:"./oscshop/mobile/view/user/index.html";i:1536632094;s:38:"./oscshop/mobile/view/public/base.html";i:1516611140;s:44:"./oscshop/mobile/view/public/footer-nav.html";i:1512628884;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:37:"./oscshop/mobile/view/user/index.html";i:1552964322;s:38:"./oscshop/mobile/view/public/base.html";i:1516611140;s:44:"./oscshop/mobile/view/public/footer-nav.html";i:1512628884;}*/ ?>
 <!DOCTYPE HTML>
 <html>
 
@@ -81,7 +81,7 @@
 <div class="uc-section" onclick="location.href = '<?php echo url("points/index"); ?>'">
     <i class='credit'></i><b>您有 <?php echo $userinfo['points']-$userinfo['cash_points']; ?> 积分可兑换</b>积分兑换
 </div>	
-<!--	<?php if($userinfo['is_agent'] == 1): ?>	
+	<?php if($userinfo['is_agent'] == 1): ?>	
 	        <div class="uc-section" onclick="location.href = '<?php echo url("Agent/sub_agent"); ?>'">
 	            <i class='hezuo'></i><b>总收益： &yen; <?php echo $userinfo['total_bonus']; ?> </b>我的代理
 	        </div>
@@ -97,11 +97,11 @@
 	        <i class='hezuo'></i><b>加入代理，共同成长</b>成为代理
 	    </div>
 	<?php endif; ?>
-	-->
+	
 </div>	
 
     <div class="weui_btn_area mui-content-padded">
-<!--	<a class="weui_btn weui_btn_primary" id="drop-out-btn" style="background-color:#e4393c">退出登录</a>-->
+	<a class="weui_btn weui_btn_primary" id="drop-out-btn" style="background-color:#e4393c">退出登录</a>
 
 <?php if(in_wechat()): endif; ?>
 
@@ -159,8 +159,8 @@ $('.uc-sign').bind('click', function() {
 	}); 
 
 </script>
-<!-- <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>  -->
-<!-- <script data-main="__RES__/mobile/js/shop_uchome.js" src="__RES__/mobile/js/require.min.js"></script> -->
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script> 
+<script data-main="__RES__/mobile/js/shop_uchome.js" src="__RES__/mobile/js/require.min.js"></script> 
 
 
 </html>

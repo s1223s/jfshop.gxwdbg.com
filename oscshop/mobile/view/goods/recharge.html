@@ -1,0 +1,43 @@
+<{extend name="public:base" /} 
+{block name="head"}
+	<link href="__PUBLIC__/view_res/mobile/css/charge.css" type="text/css" rel="Stylesheet" />
+	<link rel="stylesheet" href="__PUBLIC__/view_res/mobile/css/reset.css">
+
+{/block}
+{block name="header"}
+	{include file="public/top-nav" /}
+{/block}
+{block name="content"}
+	<div id="charge" class="charge">
+		<header class="input_phone_wrap">
+			<div class="input_phone_inner">
+				<input type="tel" maxlength="13" placeholder="请输入充值号码">
+				<span class="tel-mark"></span>
+			</div>
+		</header>
+		<div class="price_section">
+			<ul class="price_list" id="Price">
+				<li faceamount="30" saleprice="3000"><div class="li_box price"><span class="old">30元</span><span class="new">售价: ￥30.00</span></div></li>
+				<li><div class="li_box price"><span class="old">50元</span><span class="new">售价: ￥50.00</span></div></li>
+				<li><div class="li_box price"><span class="old">100元</span><span class="new">售价: ￥100.00</span></div></li>
+			</ul>
+		</div>
+		<div class="footer_section">
+			<div class="ui_flex footer_box">
+				<span class="cell total_num">
+            		<em>合计：</em><i class="yen">¥</i><i class="int"></i><i id="onlinePay" class="decima">30.00</i>
+        		</span>
+        		<a href="javascript:;" id="charge_submit" class="ui_btn">立即支付</a>
+			</div>
+		</div>
+		<div id="posMsg" class="hide">
+			<input type="hidden" id="salePrice" value="">
+		</div>
+	</div>
+{/block}
+
+{block name="script"}
+	<script>
+
+	</script>	
+{/block}

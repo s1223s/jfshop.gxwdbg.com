@@ -21,7 +21,7 @@ class PaySuccesss extends MobileBase
 
 			$json = file_get_contents("php://input");
 			$json = json_decode($json, true);
-			print_r($json);
+//			print_r($json);
 		    $state = $_GET['state'];
 			$msg = $_GET['msg'];
 			$ORDERSEQ = $_GET['money'];

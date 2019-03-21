@@ -1012,7 +1012,8 @@ $('#points-payment-btn').click(function(){
 		appId: 'wxda24132f43802300',
 		timestamp: {$signPackage.timestamp},
 		nonceStr: '{$signPackage.nonceStr}',
-		signature: '{$signPackage.signature}',
+		//signature: '{$signPackage.signature}',
+		signature: 'RSA',
 		jsApiList: ['chooseWXPay']
 	});
 

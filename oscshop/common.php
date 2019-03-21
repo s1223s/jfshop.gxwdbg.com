@@ -199,7 +199,7 @@ function clear_cache() {
 function is_module_install($moduleName) {
 	
 	if (!$module = cache('module')) {
-		
+		echo cache('module');
 		$list=Db::name('module')->field('module')->where('disabled',1)->select();
 		
 		$m=[];

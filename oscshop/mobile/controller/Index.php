@@ -18,9 +18,30 @@ class Index extends MobileBase
 {
  	function index(){
 
- 		$list = Db::name('Goods')->field('image,name,price,viewed,goods_id')->select();
- 		$this->assign('list',$list);
+ 		//获取秒杀信息部分
+ 		$time = date("Y-m-d h:i:s");
+		$timems = Db::name('goods_discountms')->where('valid','1')->where('discount_on_time','<=' ,(int)strtotime($time))->where('discount_off_time','>=' ,(int)strtotime($time))->select();
+		$timeon = date("Y-m-d h:i:s",$timems[0]['discount_on_time']);
+		$timeoff = date("Y-m-d h:i:s", $timems[0]['discount_off_time']);
+		// print_r($timeoff);
+		$end = strtotime($timeoff);
+		$now = strtotime($time);
+		$Dtime = $end - $now;
+		$discount_price = array();
+		$goods = array();
+		for ($i=0; $i < count($timems); $i++) { 
+			$a = Db::name('goods')->where('goods_id',$timems[$i]['goods_id'])->select();
+			$a = array_merge($a,$timems[$i]);
+			$goods[$i] = $a;
+		}
+		
+		$this->assign('goods',$goods);
+		$this->assign('timeoff',$timeoff);
 
+ 		$list = Db::name('Goods')->field('image,name,price,viewed,goods_id')->order('goods_id desc')->select();
+ 		
+ 		$this->assign('list',$list);
+//print_r($list);
  		
 		cookie('jump_url',request()->url(true));
 		
@@ -29,7 +50,8 @@ class Index extends MobileBase
 		$this->assign('flag','index');
 		
 		if(in_wechat())
-		$this->assign('signPackage',wechat()->getJsSign(request()->url(true)));	
+		$this->assign('signPackage',wechat()->getJsSign(request()->url(true)));
+		$this->assign('userinfo',Db::name('member')->where('uid',UID)->find());	
 		
         return $this->fetch('index');
     }
@@ -40,7 +62,7 @@ class Index extends MobileBase
         $limit =6;
 		
         $list= osc_goods()->ajax_get_goods($page,$limit);
-		
+		//print_r($list);
 		if(isset($list)&&is_array($list)){
 				foreach ($list as $k => $v) {				
 					$list[$k]['image']=resize($v['image'], 250, 250);		

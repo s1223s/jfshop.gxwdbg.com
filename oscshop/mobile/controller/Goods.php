@@ -32,7 +32,12 @@ class Goods extends MobileBase{
 		
 		osc_goods()->update_goods_viewed((int)input('param.id'));		
 		//var_dump($list);
-		//print_r($t);
+		//print_r($list['goods']['is_recharge']);
+		if ($list['goods']['is_recharge'] == '1') {
+			//echo '1';
+			return $this->fetch('recharge');
+			exit;
+		}
 		$this->assign('top_title',$list['goods']['name']);
 		$this->assign('goods',$list['goods']);
 		$this->assign('image',$list['image']);

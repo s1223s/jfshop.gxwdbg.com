@@ -25,21 +25,9 @@ class Writeoff extends AdminBase
 		$coupon = Db::name('order_coupon')
 					->where($where)
 					->paginate(10);
-					
-		//$page = $coupon->render();
-		/*$coupon = Db::name('order_coupon')
-					->where($where)
-					->find();*/
 		
-		//print_r($coupon);
-		//echo '1';
-		//print_r($coupon);
-		//var_dump($coupon);
-		//$this->assign('page',$page);
 		$this->assign('coupon',$coupon);
 		$this->assign('breadcrumb2','商家核销');
-		//$this->assign('common',$this->get_config_by_module('common'));
-		//$this->assign('write_off_time',$coupon['write_off_time']);
 		return $this->fetch('index');
 	}
 	

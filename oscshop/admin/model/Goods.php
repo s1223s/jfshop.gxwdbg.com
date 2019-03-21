@@ -54,6 +54,7 @@ class Goods{
 			$goods['location']=$data['location'];
 			$goods['price']=(float)$data['price'];
 			$goods['originalprice']=(float)$data['originalprice'];
+			$goods['profit']=(float)$data['profit'];
 			$goods['merchantNo']=$data['merchantNo'];
 			$goods['coupon_type'] = $data['coupon_type'];
 			$goods['quantity']=(int)$data['quantity'];

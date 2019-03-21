@@ -1,0 +1,581 @@
+---------------------------------------------------------------
+[ 2019-01-23T11:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.557248s][吞吐率：1.79req/s] [内存消耗：2,484.14kb] [文件加载：52]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1545213127,1547716815,1547777462; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1545213237,1547716918,1547777471',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.034092s][吞吐率：29.33req/s] [内存消耗：1,772.66kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1545213127,1547716815,1547777462; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1545213237,1547716918,1547777471',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:51:01+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] jfshopt.gxwdbg.com/favicon.ico [运行时间：0.041836s][吞吐率：23.90req/s] [内存消耗：1,221.27kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://jfshopt.gxwdbg.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1545213237,1547716918,1547777471; PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215462',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:51:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.141040s][吞吐率：7.09req/s] [内存消耗：1,773.63kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1545213237,1547716918,1547777471; PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215462',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:51:18+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.039534s][吞吐率：25.29req/s] [内存消耗：1,500.64kb] [文件加载：40]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1545213237,1547716918,1547777471; PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215472',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:51:18+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/
+[ info ] jfshopt.gxwdbg.com/mobile/ [运行时间：0.482826s][吞吐率：2.07req/s] [内存消耗：2,397.11kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1545213237,1547716918,1547777471; PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215472',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:51:22+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/index/ajax_goods_list/page/0
+[ info ] jfshopt.gxwdbg.com/mobile/index/ajax_goods_list/page/0 [运行时间：1.524301s][吞吐率：0.66req/s] [内存消耗：1,800.05kb] [文件加载：49]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1545213237,1547716918,1547777471; PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215472; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile%2F',
+)
+[ info ] [ PARAM ] array (
+  'page' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:51:27+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/category/index
+[ info ] jfshopt.gxwdbg.com/mobile/category/index [运行时间：0.343548s][吞吐率：2.91req/s] [内存消耗：2,344.40kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile%2F; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215480; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215481',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Category->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/category/index.html [ array (
+  0 => 'category',
+  1 => 'SEO',
+  2 => 'top_title',
+  3 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:51:28+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/category/get_goods/id/37
+[ info ] jfshopt.gxwdbg.com/mobile/category/get_goods/id/37 [运行时间：0.271023s][吞吐率：3.69req/s] [内存消耗：2,283.57kb] [文件加载：50]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'category',
+    2 => 'get_goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile%2F; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215480; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215481',
+)
+[ info ] [ PARAM ] array (
+  'id' => '37',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Category->get_goods[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/category/goods.html [ array (
+  0 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:58:27+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/category/index
+[ info ] jfshopt.gxwdbg.com/mobile/category/index [运行时间：1.981428s][吞吐率：0.50req/s] [内存消耗：1,222.59kb] [文件加载：33]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile%2F; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215489; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215489',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法不存在:think\Request->cache[/Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/library/think/Request.php:151]
+---------------------------------------------------------------
+[ 2019-01-23T11:59:37+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/category/index
+[ info ] jfshopt.gxwdbg.com/mobile/category/index [运行时间：0.276242s][吞吐率：3.62req/s] [内存消耗：2,345.19kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile%2F; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215489; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215489',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Category->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/category/index.html [ array (
+  0 => 'category',
+  1 => 'SEO',
+  2 => 'top_title',
+  3 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:59:37+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/category/get_goods/id/37
+[ info ] jfshopt.gxwdbg.com/mobile/category/get_goods/id/37 [运行时间：0.102406s][吞吐率：9.77req/s] [内存消耗：2,284.11kb] [文件加载：50]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'category',
+    2 => 'get_goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile%2F; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215489; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215489',
+)
+[ info ] [ PARAM ] array (
+  'id' => '37',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Category->get_goods[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/category/goods.html [ array (
+  0 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:59:40+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.151439s][吞吐率：6.60req/s] [内存消耗：2,398.44kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile%2F; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215978; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215978',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T11:59:41+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/index/ajax_goods_list/page/0
+[ info ] jfshopt.gxwdbg.com/mobile/index/ajax_goods_list/page/0 [运行时间：0.049782s][吞吐率：20.09req/s] [内存消耗：1,800.59kb] [文件加载：49]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215978; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215978; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile',
+)
+[ info ] [ PARAM ] array (
+  'page' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T12:04:23+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile
+[ info ] jfshopt.gxwdbg.com/mobile [运行时间：0.215071s][吞吐率：4.65req/s] [内存消耗：2,398.69kb] [文件加载：53]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile/category/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215981; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215981',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./oscshop/mobile/view/index/index.html [ array (
+  0 => 'list',
+  1 => 'SEO',
+  2 => 'flag',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T12:04:23+08:00 ] 127.0.0.1 127.0.0.1 GET /mobile/index/ajax_goods_list/page/0
+[ info ] jfshopt.gxwdbg.com/mobile/index/ajax_goods_list/page/0 [运行时间：0.076691s][吞吐率：13.04req/s] [内存消耗：1,800.59kb] [文件加载：49]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'index',
+    2 => 'ajax_goods_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'referer' => 'http://jfshopt.gxwdbg.com/mobile',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'PHPSESSID=376559918b4ec69edc83a0017f5cdbd7; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1547716815,1547777462,1548215462; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1547716918,1547777471,1548215480; osc_jump_url=http%3A%2F%2Fjfshopt.gxwdbg.com%2Fmobile; Hm_lpvt_920c9eb6c337fe682f18b68f6d2b2464=1548215981; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548215981',
+)
+[ info ] [ PARAM ] array (
+  'page' => '0',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\mobile\controller\Index->ajax_goods_list[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/mobile/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-23T14:06:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] jfshopt.gxwdbg.com/ [运行时间：0.416025s][吞吐率：2.40req/s] [内存消耗：1,772.30kb] [文件加载：46]
+[ info ] [ LANG ] /Library/WebServer/Documents/jfshop.gxwdbg.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'jfshopt.gxwdbg.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1548056572; Hm_lvt_920c9eb6c337fe682f18b68f6d2b2464=1548056579',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] osc\index\controller\Index->index[ /Library/WebServer/Documents/jfshop.gxwdbg.com/oscshop/index/controller/Index.php ]
+[ info ] [ VIEW ] ./oscshop/index/view/index/index.html [ array (
+  0 => 'top_nav',
+  1 => 'empty',
+  2 => 'list',
+  3 => 'SEO',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

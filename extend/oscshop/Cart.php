@@ -28,15 +28,16 @@ class Cart{
 		if(!$uid){
 			return $goods_data;
 		}
-		
+		//购物车库中搜索对应的商品
 		$cart_list=Db::name('cart')->where(array('uid'=>$uid,'type'=>$type))->select();
 		
+
 		if(!empty($cart_list)){
 			
 			foreach ($cart_list as $k => $cart) {
 				$stock = true;
 				$goods=Db::name('goods')->find($cart['goods_id']);
-				//print_r($goods);
+				//print_r($cart);
 				if($goods){
 					$option_price = 0;					
 					$option_weight = 0;	
@@ -47,7 +48,7 @@ class Cart{
 						$option_id=explode(',', $goods_option_id);
 				
 						$option_query = Db::query("SELECT go.goods_option_id, go.option_id, o.name, o.type FROM ". config('database.prefix') . "goods_option go LEFT JOIN " . config('database.prefix') . "option o ON (go.option_id = o.option_id) WHERE go.option_id = " . (int)$option_id[1] . " AND go.goods_id = " . (int)$cart['goods_id']);
-												 
+										 
 						 if(!empty($option_query)){
 						 	
 							if ($option_query[0]['type'] == 'select' || $option_query[0]['type'] == 'radio') {
@@ -139,7 +140,7 @@ class Cart{
 						 }						 
 						 
 					}
-
+					//时间轴
 					$price = $goods['price'];						
 					
 					$discount=Db::query("SELECT price FROM " . config('database.prefix') . "goods_discount WHERE goods_id = '" . (int)$cart['goods_id'] . "' AND quantity <=" . (int)$cart['quantity'] . " ORDER BY quantity DESC, price ASC LIMIT 1");
@@ -175,6 +176,8 @@ class Cart{
 						'option'                    => $option_data,
 					);
 
+					$discountms = Db::name('goods_discountms')->where('goods_id',(int)$cart['goods_id'])->where('valid','1')->where('discount_on_time','<=' ,(int)strtotime($time))->where('discount_off_time','>=' ,(int)strtotime($time))->select();
+//					print_r($discountms);
 
 				}else {
 					$this->remove((int)$cart['cart_id'],$uid);
