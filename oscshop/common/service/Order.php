@@ -569,16 +569,54 @@ class Order{
 				$profit1 = $profit*0.5;
 
 				//$profit1为总利润
-				Db::name('member')->where('uid',$order_info['uid'])->setInc('total_bonus',$profit1);
+				Db::name('member')->where('uid',$member['uid'])->setInc('total_bonus',$profit1);
+
+				//存储到agent_bonus库中
+				$bonus['uid']=$member['uid'];
+				$bonus['agent_id']=$usagent_info['agent_id'];
+				$bonus['order_id']=$order_info['order_id'];
+				$bonus['order_num_alias']=$order_info['order_num_alias'];
+				$bonus['buyer_id']=$order_info['uid'];
+				$bonus['bonus']=$profit1;
+				$bonus['return_percent']=$agent_info['return_percent'];
+				$bonus['order_total']=$order_info['total'];
+				$bonus['pay_time']=$order['pay_time'];
+				
+				$bonus['create_time']=date('Y-m-d',time());
+				$bonus['month_time']=date('m',time());
+				$bonus['year_time']=date('Y',time());
+				$bonus['order_status_id']=config('paid_order_status_id');
+				
+				Db::name('agent_bonus')->insert($bonus);
+
 
 				//存在上层代理
-				if ($member['pid']!=0) {
+				if ($member['pid']!=0 ) {
 				//上层35%
 				Db::name('agent')->where('agent_id',$agent_info['agent_id'])->setInc('total_bonus',$profit*0.35);	
 				Db::name('agent')->where('agent_id',$agent_info['agent_id'])->setInc('no_cash',$profit*0.35);
 				$profit2 = $profit*0.35;
 				//$profit2为总利润
 				Db::name('member')->where('uid',$member['pid'])->setInc('total_bonus',$profit2);
+
+				//存储到agent_bonus库中
+				$bonus['uid']=$member['pid'];
+				$bonus['agent_id']=$agent_info['agent_id'];
+				$bonus['order_id']=$order_info['order_id'];
+				$bonus['order_num_alias']=$order_info['order_num_alias'];
+				$bonus['buyer_id']=$order_info['uid'];
+				$bonus['bonus']=$profit2;
+				$bonus['return_percent']=$agent_info['return_percent'];
+				$bonus['order_total']=$order_info['total'];
+				$bonus['pay_time']=$order['pay_time'];
+				
+				$bonus['create_time']=date('Y-m-d',time());
+				$bonus['month_time']=date('m',time());
+				$bonus['year_time']=date('Y',time());
+				$bonus['order_status_id']=config('paid_order_status_id');
+				
+				Db::name('agent_bonus')->insert($bonus);
+
 
 					//获取上层代理的用户id
 					$topmember = Db::name('member')->where('uid',$member['pid'])->find();
@@ -590,7 +628,23 @@ class Order{
 						Db::name('agent')->where('agent_id',$topagent_info['agent_id'])->setInc('total_bonus',$profit*0.15);	
 						Db::name('agent')->where('agent_id',$topagent_info['agent_id'])->setInc('no_cash',$profit*0.15);
 						$profit3 = $profit*0.15;
-						Db::name('member')->where('uid',$topmember['uid'])->setInc('total_bonus',$profit3);
+						Db::name('member')->where('uid',$topmember['pid'])->setInc('total_bonus',$profit3);
+						$bonus['uid']=$topmember['pid'];
+						$bonus['agent_id']=$topagent_info['agent_id'];
+						$bonus['order_id']=$order_info['order_id'];
+						$bonus['order_num_alias']=$order_info['order_num_alias'];
+						$bonus['buyer_id']=$order_info['uid'];
+						$bonus['bonus']=$profit3;
+						$bonus['return_percent']=$agent_info['return_percent'];
+						$bonus['order_total']=$order_info['total'];
+						$bonus['pay_time']=$order['pay_time'];
+						
+						$bonus['create_time']=date('Y-m-d',time());
+						$bonus['month_time']=date('m',time());
+						$bonus['year_time']=date('Y',time());
+						$bonus['order_status_id']=config('paid_order_status_id');
+						
+						Db::name('agent_bonus')->insert($bonus);
 					}
 				}
 
@@ -599,22 +653,7 @@ class Order{
 					
 				
 
-				$bonus['uid']=$member['pid'];
-				$bonus['agent_id']=$agent_info['agent_id'];
-				$bonus['order_id']=$order_info['order_id'];
-				$bonus['order_num_alias']=$order_info['order_num_alias'];
-				$bonus['buyer_id']=$order_info['uid'];
-				$bonus['bonus']=$profit*0.35;
-				$bonus['return_percent']=$agent_info['return_percent'];
-				$bonus['order_total']=$order_info['total'];
-				$bonus['pay_time']=$order['pay_time'];
 				
-				$bonus['create_time']=date('Y-m-d',time());
-				$bonus['month_time']=date('m',time());
-				$bonus['year_time']=date('Y',time());
-				$bonus['order_status_id']=config('paid_order_status_id');
-				
-				Db::name('agent_bonus')->insert($bonus);
 				
 			}
 			

@@ -116,10 +116,11 @@ class AgentBackend extends AdminBase{
 			
 			$data['data'][$k]['member']=Db::name('member')->where('pid',$v['uid'])->count();
 			$data['data'][$k]['order']=Db::name('agent_bonus')->where('agent_id',$v['agent_id'])->count();
-			$data['data'][$k]['month']=Db::name('agent_bonus')->where(['order_status_id'=>config('paid_order_status_id'),'month_time'=>date('m',time()),'uid'=>$v['uid']])->sum('bonus');;
+			$data['data'][$k]['month']=Db::name('agent_bonus')->where(['order_status_id'=>config('paid_order_status_id'),'month_time'=>date('m',time()),'uid'=>$v['uid']])->sum('bonus');
 			
 		}
-		
+		print_r($data['data']);
+		//var_dump($data['data']);
 		$this->assign('page',$list);
 		
 		$this->assign('list',$data['data']);
